@@ -1,0 +1,91 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+
+const articles = [
+  {
+    slug: 'epstein-guilt',
+    title: 'The Epstein Files: A Timeline of Obstruction',
+    summary: 'If Trump had nothing to hide, why did he fight so hard to keep the files sealed — and why did he staff the investigation with people who have their own Epstein connections?',
+    sources: 15,
+    readTime: '12 min',
+    tags: ['Epstein', 'Cover-Up', 'Evidence'],
+  },
+];
+---
+
+<BaseLayout title="Home" description="Documented arguments against supporting Trump — every claim sourced to official records, court documents, and investigative reporting.">
+
+  <section class="hero">
+    <div class="container">
+      <p class="hero-eyebrow">The case against.</p>
+      <h1 class="hero-title">Stand Against Trump</h1>
+      <p class="hero-subtitle">Documented. Sourced. Undeniable.</p>
+      <p class="hero-desc">Evidence-based arguments against supporting Trump — built from court records, government filings, and investigative reporting. Every claim sourced. Every pattern documented.</p>
+    </div>
+  </section>
+
+  <section class="articles-section">
+    <div class="container">
+      <h2 class="section-label">Arguments</h2>
+
+      {articles.map(article => (
+        <a href={`/${article.slug}`} class="article-card">
+          <div class="card-tags">
+            {article.tags.map(tag => (
+              <span class="card-tag">{tag}</span>
+            ))}
+          </div>
+          <h3 class="card-title">{article.title}</h3>
+          <p class="card-summary">{article.summary}</p>
+          <div class="card-meta">
+            <span>{article.sources} sources cited</span>
+            <span>{article.readTime} read</span>
+          </div>
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <section class="trust-section">
+    <div class="container">
+      <h2 class="section-label">About this project</h2>
+      <div class="trust-grid">
+        <div class="trust-item">
+          <h3>Every claim sourced</h3>
+          <p>Court documents, government records, investigative journalism. Nothing from memory, nothing fabricated.</p>
+        </div>
+        <div class="trust-item">
+          <h3>Allegations labeled</h3>
+          <p>What is proven is stated as fact. What is alleged is labeled as such. The distinction matters.</p>
+        </div>
+        <div class="trust-item">
+          <h3>The pattern speaks</h3>
+          <p>Individual actions have explanations. Taken together, the pattern becomes harder to dismiss.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  .hero { padding: 80px 24px 60px; text-align: center; background: var(--surface); border-bottom: 1px solid var(--border); }
+  .hero-eyebrow { font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 3px; text-transform: uppercase; color: var(--accent); margin-bottom: 16px; }
+  .hero-title { font-family: var(--font-headline); font-size: 3.2rem; font-weight: 700; color: var(--text); margin-bottom: 8px; line-height: 1.1; }
+  .hero-subtitle { font-family: var(--font-headline); font-size: 1.2rem; font-weight: 400; color: var(--accent); font-style: italic; margin-bottom: 24px; }
+  .hero-desc { font-size: 1.05rem; color: var(--text-secondary); max-width: 560px; margin: 0 auto; line-height: 1.7; }
+  .articles-section { padding: 60px 24px; }
+  .section-label { font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 3px; text-transform: uppercase; color: var(--accent); margin-bottom: 24px; margin-top: 0; }
+  .article-card { display: block; background: var(--surface); border: 1px solid var(--border); border-left: 4px solid var(--accent); border-radius: 6px; padding: 28px 32px; text-decoration: none; transition: all 0.2s; margin-bottom: 16px; }
+  .article-card:hover { border-color: var(--accent); box-shadow: 0 4px 16px rgba(0,0,0,0.06); transform: translateY(-2px); }
+  .card-tags { display: flex; gap: 8px; margin-bottom: 12px; flex-wrap: wrap; }
+  .card-tag { font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 1px; text-transform: uppercase; color: var(--accent); border: 1px solid var(--accent); padding: 3px 10px; border-radius: 3px; }
+  .card-title { font-family: var(--font-headline); font-size: 1.4rem; font-weight: 700; color: var(--text); margin-top: 0; margin-bottom: 8px; line-height: 1.3; }
+  .card-summary { font-size: 1rem; color: var(--text-secondary); margin-bottom: 12px; line-height: 1.6; }
+  .card-meta { display: flex; gap: 20px; font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 1px; text-transform: uppercase; color: var(--muted); }
+  .trust-section { padding: 60px 24px; background: var(--surface); border-top: 1px solid var(--border); }
+  .trust-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
+  .trust-item h3 { font-family: var(--font-headline); font-size: 1.05rem; margin-top: 0; margin-bottom: 8px; color: var(--text); }
+  .trust-item p { font-size: 0.9rem; color: var(--text-secondary); line-height: 1.6; }
+  @media (max-width: 600px) { .hero { padding: 48px 24px 40px; } .hero-title { font-size: 2.2rem; } .trust-grid { grid-template-columns: 1fr; gap: 24px; } .article-card { padding: 20px 24px; } }
+</style>

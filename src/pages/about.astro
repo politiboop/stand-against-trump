@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="About" description="What this project is, how it works, and why it exists.">
+
+  <section class="about-hero">
+    <div class="container">
+      <h1>About This Project</h1>
+      <p class="about-subtitle">A personal project documenting the case against supporting Trump.</p>
+    </div>
+  </section>
+
+  <section class="about-body">
+    <div class="container">
+
+      <h2>What this is</h2>
+      <p>This is a personal research project. Each essay builds an argument from documented evidence — court records, government filings, investigative journalism, and official testimony. The goal is to compile the strongest factual case against supporting Trump, organized by topic.</p>
+
+      <h2>Standards</h2>
+      <p>This project takes a position. Unlike a neutral reference site, these essays argue a point of view. But the arguments are built entirely from sourced evidence:</p>
+      <ul>
+        <li>Every factual claim is sourced to a reputable outlet or official record</li>
+        <li>Allegations are labeled as allegations — not stated as proven fact</li>
+        <li>When a claim is contested, the competing evidence is noted</li>
+        <li>Source URLs are verified before publication</li>
+      </ul>
+
+      <h2>What this is not</h2>
+      <p>This is not affiliated with any political campaign, party, or organization. It is not a news site. It is a personal compilation of evidence and arguments, maintained by one person who believes the case matters.</p>
+
+    </div>
+  </section>
+
+</BaseLayout>
+
+<style>
+  .about-hero { background: var(--surface); border-bottom: 1px solid var(--border); padding: 60px 24px 40px; }
+  .about-hero h1 { font-size: 2.2rem; }
+  .about-subtitle { font-size: 1.1rem; color: var(--text-secondary); font-style: italic; margin-top: 8px; }
+  .about-body { padding: 48px 24px 60px; }
+  .about-body h2 { margin-top: 2em; padding-top: 16px; border-top: 1px solid var(--border); }
+  .about-body h2:first-child { margin-top: 0; padding-top: 0; border-top: none; }
+  .about-body ul { padding-left: 1.2em; }
+  .about-body li { margin-bottom: 0.6em; color: var(--text-secondary); }
+</style>
