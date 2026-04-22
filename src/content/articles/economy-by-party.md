@@ -1,8 +1,8 @@
 ---
-title: "The Economy Does Better Under Democrats — Here's the Data"
+title: "The Economy Does Better Under Democrats. Here's the Data."
 order: 3
 date: 2026-04-16
-summary: "Higher GDP growth. More jobs created. Better stock market returns. Fewer recessions. This isn't opinion — it's 75 years of government data and peer-reviewed research from Princeton."
+summary: "Higher GDP growth. More jobs created. Better stock market returns. Fewer recessions. This isn't opinion. It's 75 years of government data and peer-reviewed research from Princeton."
 ---
 
 The partisan gap in economic performance is one of the most robust findings in political economy. It has been documented by Princeton economists, published in the American Economic Review, and verified against 75 years of government data from the BEA, BLS, Treasury, and CBO.

@@ -2,7 +2,7 @@
 title: "The Sexual Predator Evidence"
 order: 2
 date: 2026-04-16
-summary: "A federal jury found him liable for sexual abuse. He described the behavior himself on tape. 26+ women say it happened to them. And he walked into dressing rooms where underage girls were changing — then bragged about it on the radio."
+summary: "A federal jury found him liable for sexual abuse. He described the behavior himself on tape. 26+ women say it happened to them. He walked into dressing rooms where underage girls were changing, then bragged about it on the radio."
 ---
 
 What follows is organized from the strongest evidence (court verdicts, Trump's own recorded words) to corroborating allegations (named accusers, sworn testimony). Every claim is sourced. Where something is alleged rather than proven, that distinction is noted.

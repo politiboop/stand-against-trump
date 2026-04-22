@@ -2,9 +2,9 @@
 title: "The Epstein Files: A Timeline of Obstruction"
 order: 1
 date: 2026-04-16
-summary: "If Trump had nothing to hide, why did he fight so hard to keep the files sealed — and why did he staff the investigation with people who have their own Epstein connections?"
+summary: "If Trump had nothing to hide, why did he fight so hard to keep the files sealed? And why did he staff the investigation with people who have their own Epstein connections?"
 ---
-If Trump had nothing to hide, why did he fight so hard to keep the files sealed — and why did he staff the investigation with people who have their own Epstein connections?
+If Trump had nothing to hide, why did he fight so hard to keep the files sealed? And why did he staff the investigation with people who have their own Epstein connections?
 
 This document traces Trump's relationship with Epstein, the Republican effort to block the files' release, the systematic obstruction after the Transparency Act passed, and the Epstein connections of people Trump placed in positions controlling the investigation.
 
