@@ -1,4 +1,6 @@
 ---
+import Analytics from '@vercel/analytics/astro';
+
 interface Props {
   title: string;
   description?: string;
@@ -36,6 +38,8 @@ const fullTitle = title === 'Home' ? 'Stand Against Trump' : `${title} — Stand
     @import url('@fontsource/inter/600.css');
     @import url('@fontsource/ibm-plex-mono/400.css');
   </style>
+
+  <Analytics />
 </head>
 <body>
   <header class="site-header">
