@@ -48,3 +48,6 @@ coverage/
 
 # MCP
 .mcp.json
+
+# Research caches: saved article texts, local only (copyrighted third-party content)
+research/**/cache/
