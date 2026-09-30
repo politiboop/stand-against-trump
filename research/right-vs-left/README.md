@@ -9,13 +9,14 @@ was built from checked sources, with gaps marked `[NEEDS SOURCE]`. This is a per
 |---|---|
 | `not-the-same.md` | Working copy of the 40-year argument, with its sources, the claims not to make, and claims from earlier drafts that still need sources. The published version is `src/content/articles/not-the-same.md` (site: /not-the-same), which leaves out every unsourced line. |
 | `src/content/articles/values-vs-votes.md` | Published: 32 roll calls on 14 topics (site: /values-vs-votes). Rendered from data; do not edit by hand. |
-| `src/content/articles/epstein-votes.md` | Published: every recorded congressional action on the Epstein files, 47 rows (site: /epstein-votes). Rendered from data; do not edit by hand. |
+| `src/content/articles/epstein-votes.md` | Published: every recorded congressional action on the Epstein files, 48 entries in four periods, with explainers for each measure and procedure (site: /epstein-votes). Rendered from data; do not edit by hand. |
 | `src/content/articles/a-culprit-instead-of-a-plan.md` | Published: what Republicans campaign on vs. their record on climate, health care, education, war and equal rights (site: /a-culprit-instead-of-a-plan) |
 | `identity-vs-issues-notes.md` | All the research behind it: ad spending by topic, platform word counts, size of the targeted problems, scapegoating claims, voter priorities, the governing record by issue, and tracker gaps |
 | `data/values-votes.json`, `data/epstein-votes.json` | Structured roll calls, splits, URLs, objections, values, discharge petitions and quotes |
 | `data/build-*.cjs` | The source of truth for the JSON: edit these, not the JSON |
 | `data/render.cjs` | Writes the two published vote articles from the JSON |
 | `cache/crs/` | Official bill-status files from govinfo with the Congressional Research Service summaries (`*.summary.txt`) that the bill explainers on /values-vs-votes are written from. The `BILLS` block in `data/build-values-votes.cjs` names the file behind each explainer. |
+| `cache/crs119/`, `cache/ec/` | Bill texts and summaries for every Epstein measure, the July 17 and 24, 2025 Senate Congressional Records, and the Congress.gov glossary excerpts that the Epstein page's explainers are written from. The `MEASURES` and `TERMS` blocks in `data/build-epstein-votes.cjs` name the file behind each one. |
 | `data/check-quotes.cjs` | Checks every `quote` in a data file word for word against the saved source texts |
 | `cache/` | Saved copies of every source page the research relied on, with `map.tsv` files. Local only (gitignored): these are copies of copyrighted articles. |
 
@@ -47,6 +48,15 @@ and senate.gov. When a claim is contested or single-sourced, the files say so.
 - **Tracker, three Callais entries.** They dated the ruling May 1; the opinion says April 29, 2026 (commit 57ce56e).
 - **This repo, `src/content/articles/epstein-guilt.md`.** It dated Trump's reversal to November 12, the day he called it
   a trap for "stupid" Republicans. The reversal was November 16. Corrected.
+
+- **This repo, `epstein-votes`.** It recorded both July 24, 2025 Senate objections as Mullin blocking Gallego. The
+  Congressional Record shows the second exchange began with Mullin's own resolution (S.Res. 335, asking the courts to
+  unseal the records), and ended with Gallego objecting to it. The Republican count is unchanged at 10; the
+  Democratic objection is now listed, with a public correction note on the page.
+- **This repo, `epstein-votes`.** The related-votes entry for S.Res. 608 linked the Senate floor log's homepage; it now
+  links the bill and the July 29, 2026 log.
+- **This repo, source counts.** Article source counts only counted markdown links, so the two vote pages (built from
+  HTML cards) showed far too few. `src/lib/article-stats.ts` now counts both link forms and skips markup in read times.
 
 ## Open threads
 

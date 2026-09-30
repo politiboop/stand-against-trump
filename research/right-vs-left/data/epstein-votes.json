@@ -1,9 +1,288 @@
 {
   "updated": "2026-09-30",
   "counts": {
-    "rows": 47,
+    "rows": 48,
     "recordedVotesBlockingRelease": 24,
-    "senateObjections": 10
+    "senateObjections": 10,
+    "democraticObjections": 1
+  },
+  "phases": [
+    {
+      "id": "july-2025",
+      "from": "2025-07-01",
+      "to": "2025-08-31",
+      "title": "July 2025: the first push",
+      "intro": "Trump called the matter a hoax. Democrats and a handful of Republicans tried to force a vote, and Speaker Johnson sent the House home early for August."
+    },
+    {
+      "id": "september-2025",
+      "from": "2025-09-01",
+      "to": "2025-10-31",
+      "title": "September 2025: the petition fight",
+      "intro": "Massie filed his discharge petition on September 2. House Republicans passed their own Oversight resolution instead, and committees voted down subpoenas aimed at banks, Treasury and the FBI."
+    },
+    {
+      "id": "november-2025",
+      "from": "2025-11-01",
+      "to": "2025-12-31",
+      "title": "November 2025: Trump reverses",
+      "intro": "The petition reached 218 signatures on November 12. Trump reversed on November 16, and the bill passed two days later."
+    },
+    {
+      "id": "year-2026",
+      "from": "2026-01-01",
+      "to": "2026-12-31",
+      "title": "2026: enforcing the law",
+      "intro": "With the law passed, the fight moved to whether the Justice Department was complying, and whom the Oversight Committee would pursue."
+    }
+  ],
+  "measures": {
+    "eft": {
+      "name": "The Epstein Files Transparency Act (H.R. 4405; Senate version S. 2557)",
+      "short": "release bill",
+      "what": "The bill that became law. It requires the Justice Department to publish, within 30 days, all its unclassified records on Jeffrey Epstein and Ghislaine Maxwell, including flight logs and the people named in the investigation, government officials among them. It may withhold victims' personal information, child sexual abuse material and anything that would jeopardize an active federal investigation, but nothing for \"embarrassment, reputational harm, or political sensitivity.\" Written by Reps. Ro Khanna (D) and Thomas Massie (R); Sen. Jeff Merkley (D) introduced the Senate version.",
+      "src": [
+        [
+          "H.R. 4405",
+          "https://www.congress.gov/bill/119th-congress/house-bill/4405"
+        ],
+        [
+          "S. 2557",
+          "https://www.congress.gov/bill/119th-congress/senate-bill/2557"
+        ]
+      ],
+      "basis": "crs119/BILLS-119hr4405enr.txt, BILLSTATUS-119hr4405, BILLS-119s2557is.txt, ea/txt/crec_house_2025-07-17_excerpts.txt"
+    },
+    "hres581": {
+      "name": "Massie's discharge resolution (H.Res. 581)",
+      "short": "discharge resolution",
+      "what": "A rule that would bring the release bill to the floor by amending another bill, H.R. 185, to carry it. It was the target of Massie's discharge petition, which reached 218 signatures on November 12, 2025. Once the House passed the release bill, another rule set it aside.",
+      "src": [
+        [
+          "H.Res. 581",
+          "https://www.congress.gov/bill/119th-congress/house-resolution/581"
+        ]
+      ],
+      "basis": "crs119/BILLSTATUS-119hres581, BILLS-119hres879rh.txt sec. 8, ea/txt/clerk_discharge_petition_9.txt"
+    },
+    "khanna50": {
+      "name": "The Khanna amendment (No. 50 to H.R. 3633)",
+      "short": "Khanna amendment",
+      "what": "Rep. Ro Khanna's amendment to the CLARITY Act, a bill regulating digital assets such as cryptocurrency. It \"would require the Attorney General to preserve and release any records related to Jeffrey Epstein,\" in the words of the Rules Committee's report.",
+      "src": [
+        [
+          "Rules Committee report",
+          "https://rules.house.gov/sites/evo-subsites/rules.house.gov/files/documents/rulesreport07142025.pdf"
+        ],
+        [
+          "H.R. 3633",
+          "https://www.congress.gov/bill/119th-congress/house-bill/3633"
+        ]
+      ],
+      "basis": "ea/txt/rules_report_H.Rpt.119-199.txt, crs119/BILLSTATUS-119hr3633"
+    },
+    "hres577": {
+      "name": "The Democrats' release resolution (H.Res. 577)",
+      "short": "H.Res. 577",
+      "what": "Rep. Marc Veasey's resolution demanding that the Trump administration immediately release all unclassified Epstein files, flight logs and evidence, with redactions only to protect minor victims and ongoing prosecutions, and asking the Justice Department and FBI to report any delays or destruction of evidence. A House resolution, not a bill: it could not become law.",
+      "src": [
+        [
+          "H.Res. 577",
+          "https://www.congress.gov/bill/119th-congress/house-resolution/577"
+        ]
+      ],
+      "basis": "crs119/BILLS-119hres577ih.txt, ec/congress_glossary.txt (simple resolution)"
+    },
+    "hres589": {
+      "name": "The Republican resolution (H.Res. 589)",
+      "short": "Republican resolution",
+      "what": "Rep. Ralph Norman's resolution asking the attorney general to release all \"credible\" Epstein files within 30 days. Speaker Johnson allowed it forward as part of a deal with Republican holdouts. CNN described it as non-binding and noted it \"doesn't immediately force any action.\" The rule to adopt it was never brought to the floor.",
+      "src": [
+        [
+          "H.Res. 589",
+          "https://www.congress.gov/bill/119th-congress/house-resolution/589"
+        ],
+        [
+          "CNN",
+          "https://www.cnn.com/2025/07/21/politics/epstein-files-house-vote-gop-johnson-massie"
+        ]
+      ],
+      "basis": "crs119/BILLS-119hres589ih.txt, ea/txt/cnn_johnson_shuts_door_20250721.txt, BILLS-119hres672rh.txt sec. 10"
+    },
+    "hres668": {
+      "name": "The Republican Oversight resolution (H.Res. 668)",
+      "short": "Oversight resolution",
+      "what": "Directed the House Oversight Committee to continue its Epstein investigation and to publish the committee's own records, with exceptions for victims' identities, abuse material and active investigations. It passed without a vote of its own, inside a rule for an unrelated spending bill.",
+      "src": [
+        [
+          "H.Res. 668",
+          "https://www.congress.gov/bill/119th-congress/house-resolution/668"
+        ]
+      ],
+      "basis": "crs119/BILLSTATUS-119hres668, BILLS-119hres672rh.txt sec. 8"
+    },
+    "sres325": {
+      "name": "Gallego's Senate resolution (S.Res. 325)",
+      "short": "S.Res. 325",
+      "what": "Sen. Ruben Gallego's statement of the Senate's view that the Justice Department should release the appropriate Epstein records, meet with victims first, say what it is withholding and why, and correct misleading statements by its officials.",
+      "src": [
+        [
+          "S.Res. 325",
+          "https://www.congress.gov/bill/119th-congress/senate-resolution/325"
+        ]
+      ],
+      "basis": "crs119/BILLS-119sres325is.txt"
+    },
+    "sres335": {
+      "name": "Mullin's Senate resolution (S.Res. 335)",
+      "short": "S.Res. 335",
+      "what": "Sen. Markwayne Mullin's resolution calling on federal and state courts to unseal all Epstein and Maxwell materials, including grand jury records, with redactions to protect victims.",
+      "src": [
+        [
+          "S.Res. 335",
+          "https://www.congress.gov/bill/119th-congress/senate-resolution/335"
+        ]
+      ],
+      "basis": "crs119/BILLS-119sres335is.txt"
+    },
+    "vhd": {
+      "name": "The Van Hollen-Durbin language",
+      "short": "preserve-the-records language",
+      "what": "Adopted by the Senate Appropriations Committee: the attorney general must \"retain, preserve, and compile\" the Epstein records and, within 60 days, report to the committee on the case, including the 2008 non-prosecution agreement, victims, co-conspirators and oversight failures at the federal jail in New York. Its spending bill never passed.",
+      "src": [
+        [
+          "Committee amendments",
+          "https://appropriations.senate.gov/download/fy26-commerce-justice-science-adopted-amendments&download=1"
+        ],
+        [
+          "Congressional Record",
+          "https://www.govinfo.gov/content/pkg/CREC-2025-08-02/html/CREC-2025-08-02-pt1-PgS5502-4.htm"
+        ]
+      ],
+      "basis": "eb/sac_cjs_adopted.txt, eb/crec_20250802_S5502.txt"
+    },
+    "schumer3849": {
+      "name": "Schumer's amendment (No. 3849 to the defense bill)",
+      "short": "Schumer amendment",
+      "what": "An amendment to the annual defense authorization bill \"to direct the Attorney General to make publicly available documents related to Jeffrey Epstein.\"",
+      "src": [
+        [
+          "S.Amdt. 3849",
+          "https://www.congress.gov/amendment/119th-congress/senate-amendment/3849"
+        ]
+      ],
+      "basis": "ec/senate_vote_119_1_00512.htm, crs119/BILLSTATUS-119s2296"
+    },
+    "sres597": {
+      "name": "Schumer's lawsuit resolution (S.Res. 597)",
+      "short": "S.Res. 597",
+      "what": "Would have directed the Senate to go to court over the Justice Department's failure to comply with the Epstein Files Transparency Act.",
+      "src": [
+        [
+          "S.Res. 597",
+          "https://www.congress.gov/bill/119th-congress/senate-resolution/597"
+        ]
+      ],
+      "basis": "crs119/BILLS-119sres597is.txt"
+    },
+    "s2746": {
+      "name": "The Produce Epstein Treasury Records Act (S. 2746)",
+      "short": "S. 2746",
+      "what": "Sen. Ron Wyden's bill requiring Treasury to give the Senate Finance and Banking committees every bank suspicious activity report on Epstein, his co-conspirators and anyone who did business with him or his companies.",
+      "src": [
+        [
+          "S. 2746",
+          "https://www.congress.gov/bill/119th-congress/senate-bill/2746"
+        ]
+      ],
+      "basis": "crs119/BILLS-119s2746is.txt, eb/crec_20260303_S748.txt"
+    },
+    "rules": {
+      "name": "The rules for other bills (H.Res. 580, 590, 672 and 879)",
+      "short": "rule",
+      "what": "A rule sets the terms for debating other bills. These four brought up a defense spending bill and digital-asset bills (580), the spending-cuts package (590), an energy and water spending bill that also carried the Republican Oversight resolution (672), and resolutions overturning federal land plans, a rule that also retired the discharge petition (879). Democrats tried to amend them to add an Epstein vote.",
+      "src": [
+        [
+          "H.Res. 580",
+          "https://www.congress.gov/bill/119th-congress/house-resolution/580"
+        ],
+        [
+          "590",
+          "https://www.congress.gov/bill/119th-congress/house-resolution/590"
+        ],
+        [
+          "672",
+          "https://www.congress.gov/bill/119th-congress/house-resolution/672"
+        ],
+        [
+          "879",
+          "https://www.congress.gov/bill/119th-congress/house-resolution/879"
+        ]
+      ],
+      "basis": "crs119/BILLSTATUS-119hres580/590/672/879, BILLS-119hres672rh.txt, BILLS-119hres879rh.txt"
+    }
+  },
+  "terms": {
+    "pq": {
+      "name": "Previous question",
+      "what": "A House vote to end debate on a rule and vote on it as written. Winning it \"cuts off further debate, prevents the offering of additional amendments.\" Democrats asked members to vote it down so they could add an Epstein vote.",
+      "src": [
+        [
+          "Congress.gov glossary",
+          "https://www.congress.gov/help/legislative-glossary"
+        ]
+      ]
+    },
+    "rules": {
+      "name": "Rules Committee votes",
+      "what": "The Rules Committee writes each rule, \"a resolution reported by the Rules Committee that, if agreed to by the House, sets the terms for debating and amending\" bills. Its nine Republicans and four Democrats vote on motions to change them.",
+      "src": [
+        [
+          "Congress.gov glossary",
+          "https://www.congress.gov/help/legislative-glossary"
+        ]
+      ]
+    },
+    "table": {
+      "name": "Motion to table",
+      "what": "A vote to kill a motion without debating it: \"a simple majority may agree to negatively and permanently dispose of a question.\"",
+      "src": [
+        [
+          "Congress.gov glossary",
+          "https://www.congress.gov/help/legislative-glossary"
+        ]
+      ]
+    },
+    "uc": {
+      "name": "Unanimous consent",
+      "what": "In the Senate, any member may ask colleagues to set the usual rules aside and pass a measure at once. \"If any member objects to such a request, it is not agreed to.\" One objection is enough.",
+      "src": [
+        [
+          "Congress.gov glossary",
+          "https://www.congress.gov/help/legislative-glossary"
+        ]
+      ]
+    },
+    "discharge": {
+      "name": "Discharge petition",
+      "what": "A way to force a House vote that leaders oppose, \"provided the petition gets a majority of lawmaker signatures,\" in Fox News's words: 218 when every seat is filled.",
+      "src": [
+        [
+          "Fox News",
+          "https://www.foxnews.com/politics/house-moves-expose-epstein-files-authorizes-oversight-probe"
+        ]
+      ]
+    },
+    "suspension": {
+      "name": "Suspension of the rules",
+      "what": "A fast track for bills with wide support: no amendments, 40 minutes of debate, and \"a two-thirds majority for passage.\"",
+      "src": [
+        [
+          "Congress.gov glossary",
+          "https://www.congress.gov/help/legislative-glossary"
+        ]
+      ]
+    }
   },
   "votes": [
     {
@@ -17,7 +296,13 @@
       "sources": [
         "https://appropriations.senate.gov/download/fy26-commerce-justice-science-adopted-amendments&download=1"
       ],
-      "notes": "Described as unanimous (Scripps, Van Hollen). The bill never passed."
+      "notes": "Described as unanimous (Scripps, Van Hollen). The bill never passed.",
+      "plain": "Require the Justice Department to keep the Epstein records and report to Congress",
+      "m": [
+        "vhd"
+      ],
+      "id": "v1",
+      "phase": "july-2025"
     },
     {
       "date": "2025-07-14",
@@ -36,7 +321,16 @@
       "sources": [
         "https://rules.house.gov/sites/evo-subsites/rules.house.gov/files/documents/rulesreport07142025.pdf"
       ],
-      "notes": "Norman the only R yes; Roy absent."
+      "notes": "Norman the only R yes; Roy absent.",
+      "plain": "Allow a House vote on the Khanna amendment to release the files",
+      "m": [
+        "khanna50"
+      ],
+      "t": [
+        "rules"
+      ],
+      "id": "v2",
+      "phase": "july-2025"
     },
     {
       "date": "2025-07-14",
@@ -55,7 +349,16 @@
       "sources": [
         "https://rules.house.gov/sites/evo-subsites/rules.house.gov/files/documents/rulesreport07142025.pdf"
       ],
-      "notes": ""
+      "notes": "",
+      "plain": "Bring up the Democrats' resolution demanding release",
+      "m": [
+        "hres577"
+      ],
+      "t": [
+        "rules"
+      ],
+      "id": "v3",
+      "phase": "july-2025"
     },
     {
       "date": "2025-07-15",
@@ -72,9 +375,21 @@
       ],
       "blocked": true,
       "sources": [
-        "https://clerk.house.gov/Votes/2025194"
+        "https://clerk.house.gov/Votes/2025194",
+        "https://www.govinfo.gov/content/pkg/CREC-2025-07-15/pdf/CREC-2025-07-15-house.pdf"
       ],
-      "notes": "Procedural. Source of the claim that Republicans \"voted against releasing\" the files. 9 R not voting, including Massie."
+      "notes": "Procedural. Source of the claim that Republicans \"voted against releasing\" the files. 9 R not voting, including Massie.",
+      "id": "roll-194",
+      "plain": "Shut off the attempt to add the release amendment to a rule",
+      "m": [
+        "khanna50",
+        "rules"
+      ],
+      "t": [
+        "pq"
+      ],
+      "explain": "Democrats said that if this vote failed, they would change the rule to allow a vote on the Khanna amendment. It passed by one vote.",
+      "phase": "july-2025"
     },
     {
       "date": "2025-07-17",
@@ -85,9 +400,25 @@
       "D": null,
       "blocked": true,
       "sources": [
-        "https://dailypress.senate.gov/thursday-july-17-2025/"
+        "https://dailypress.senate.gov/thursday-july-17-2025/",
+        "https://www.govinfo.gov/content/pkg/CREC-2025-07-17/pdf/CREC-2025-07-17-senate.pdf"
       ],
-      "notes": ""
+      "notes": "",
+      "plain": "Pass Gallego's resolution asking the Justice Department to release the files",
+      "m": [
+        "sres325"
+      ],
+      "t": [
+        "uc"
+      ],
+      "objR": 1,
+      "reason": {
+        "who": "Sen. Markwayne Mullin (R)",
+        "quote": "this is nothing but political theater",
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2025-07-17/pdf/CREC-2025-07-17-senate.pdf"
+      },
+      "id": "v5",
+      "phase": "july-2025"
     },
     {
       "date": "2025-07-17",
@@ -106,7 +437,17 @@
       "sources": [
         "https://www.govinfo.gov/content/pkg/CRPT-119hrpt209/html/CRPT-119hrpt209.htm"
       ],
-      "notes": ""
+      "notes": "",
+      "plain": "Swap the Republican resolution for a vote on the release bill",
+      "m": [
+        "eft",
+        "hres589"
+      ],
+      "t": [
+        "rules"
+      ],
+      "id": "v6",
+      "phase": "july-2025"
     },
     {
       "date": "2025-07-17",
@@ -125,7 +466,13 @@
       "sources": [
         "https://www.govinfo.gov/content/pkg/CRPT-119hrpt209/html/CRPT-119hrpt209.htm"
       ],
-      "notes": "Procedural; counted as two votes."
+      "notes": "Procedural; counted as two votes.",
+      "plain": "Appeal the chair's rulings against Democrats' motions (two votes)",
+      "t": [
+        "rules"
+      ],
+      "id": "v7",
+      "phase": "july-2025"
     },
     {
       "date": "2025-07-17",
@@ -144,7 +491,17 @@
       "sources": [
         "https://www.govinfo.gov/content/pkg/CRPT-119hrpt209/html/CRPT-119hrpt209.htm"
       ],
-      "notes": "The rule was never called up; tabled Sept 3."
+      "notes": "The rule was never called up; tabled Sept 3.",
+      "plain": "Send the rule adopting the Republican resolution to the floor",
+      "m": [
+        "hres589"
+      ],
+      "t": [
+        "rules"
+      ],
+      "explain": "The rule never came to the floor; it was set aside in September.",
+      "id": "v8",
+      "phase": "july-2025"
     },
     {
       "date": "2025-07-17",
@@ -164,7 +521,18 @@
         "https://clerk.house.gov/Votes/2025202",
         "https://www.govinfo.gov/content/pkg/CREC-2025-07-17/pdf/CREC-2025-07-17-house.pdf"
       ],
-      "notes": "Procedural. Epstein link is in the Congressional Record (McGovern); no news story found on this roll."
+      "notes": "Procedural. Epstein link is in the Congressional Record (McGovern); no news story found on this roll.",
+      "plain": "Shut off the attempt to bring up the release bill",
+      "m": [
+        "eft",
+        "rules"
+      ],
+      "t": [
+        "pq"
+      ],
+      "explain": "The rule was for the spending-cuts package. Democrats said a defeated previous question would let them bring up the release bill immediately.",
+      "id": "v9",
+      "phase": "july-2025"
     },
     {
       "date": "2025-07-22",
@@ -177,7 +545,10 @@
       "sources": [
         "https://oversight.house.gov/release/chairman-comer-subpoenas-ghislaine-maxwell-for-deposition-at-federal-prison/"
       ],
-      "notes": ""
+      "notes": "",
+      "plain": "Subpoena Ghislaine Maxwell",
+      "id": "v10",
+      "phase": "july-2025"
     },
     {
       "date": "2025-07-23",
@@ -196,7 +567,10 @@
       "sources": [
         "https://docs.house.gov/meetings/GO/GO33/20250723/118526/CRPT-119-GO33-Vote001-20250723.pdf"
       ],
-      "notes": ""
+      "notes": "",
+      "plain": "Widen the request to any president's communications, including Trump's",
+      "id": "v11",
+      "phase": "july-2025"
     },
     {
       "date": "2025-07-23",
@@ -215,7 +589,10 @@
       "sources": [
         "https://docs.house.gov/meetings/GO/GO33/20250723/118526/CRPT-119-GO33-Vote002-20250723.pdf"
       ],
-      "notes": ""
+      "notes": "",
+      "plain": "Limit the request to \"credible\" files",
+      "id": "v12",
+      "phase": "july-2025"
     },
     {
       "date": "2025-07-23",
@@ -235,7 +612,10 @@
         "https://docs.house.gov/meetings/GO/GO33/20250723/118526/CRPT-119-GO33-Vote003-20250723.pdf",
         "https://www.cbsnews.com/news/house-committee-votes-to-subpoena-justice-department-for-epstein-files/"
       ],
-      "notes": "R yes: Mace, Perry, Jack. R no: Higgins, Biggs. Subpoena issued Aug 5."
+      "notes": "R yes: Mace, Perry, Jack. R no: Higgins, Biggs. Subpoena issued Aug 5.",
+      "plain": "Subpoena the Justice Department for the Epstein files",
+      "id": "v13",
+      "phase": "july-2025"
     },
     {
       "date": "2025-07-23",
@@ -248,20 +628,75 @@
       "sources": [
         "https://oversight.house.gov/release/chairman-comer-subpoenas-bill-and-hillary-clinton-former-attorneys-general-and-former-fbi-directors-in-epstein-investigation/"
       ],
-      "notes": "Transcript records \"[Chorus of noes.]\"; Comer's office called it unanimous."
+      "notes": "Transcript records \"[Chorus of noes.]\"; Comer's office called it unanimous.",
+      "plain": "Subpoena the Clintons and former attorneys general and FBI directors",
+      "id": "v14",
+      "phase": "july-2025"
     },
     {
       "date": "2025-07-24",
       "body": "Senate floor (unanimous consent)",
-      "question": "Gallego requests to pass S.Res. 325 and S.Res. 335",
-      "result": "Objection twice: Sen. Markwayne Mullin",
+      "question": "Gallego request to pass S.Res. 325",
+      "result": "Objection: Sen. Markwayne Mullin",
       "R": null,
       "D": null,
       "blocked": true,
       "sources": [
-        "https://dailypress.senate.gov/thursday-july-24-2025/"
+        "https://dailypress.senate.gov/thursday-july-24-2025/",
+        "https://www.govinfo.gov/content/pkg/CREC-2025-07-24/pdf/CREC-2025-07-24-senate.pdf"
       ],
-      "notes": "Counted as two objections."
+      "notes": "",
+      "plain": "Pass Gallego's resolution again",
+      "m": [
+        "sres325"
+      ],
+      "t": [
+        "uc"
+      ],
+      "objR": 1,
+      "reason": {
+        "who": "Sen. Markwayne Mullin (R)",
+        "quote": "this resolution does absolutely nothing; therefore, I object",
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2025-07-24/pdf/CREC-2025-07-24-senate.pdf"
+      },
+      "id": "v15",
+      "phase": "july-2025"
+    },
+    {
+      "date": "2025-07-24",
+      "body": "Senate floor (unanimous consent)",
+      "question": "Mullin request to pass his S.Res. 335 (courts should unseal the Epstein and Maxwell records); Gallego asks to pass it together with S.Res. 325",
+      "result": "Objection: Mullin, to passing both; then Gallego, to S.Res. 335 alone",
+      "R": null,
+      "D": null,
+      "blocked": true,
+      "sources": [
+        "https://www.govinfo.gov/content/pkg/CREC-2025-07-24/pdf/CREC-2025-07-24-senate.pdf"
+      ],
+      "notes": "Corrected 2026-09-30: this list first recorded both July 24 objections as Mullin blocking Gallego. The Congressional Record shows the second exchange began with Mullin's own resolution, and ended with Gallego objecting to it.",
+      "plain": "Pass Mullin's resolution asking the courts to unseal the records, or both resolutions together",
+      "m": [
+        "sres335",
+        "sres325"
+      ],
+      "t": [
+        "uc"
+      ],
+      "objR": 1,
+      "objD": 1,
+      "explain": "Mullin refused to pass the two together, and Gallego then blocked Mullin's alone. The only Democratic objection on this list.",
+      "reason": {
+        "who": "Sen. Ruben Gallego (D)",
+        "quote": "Republicans are demanding that the courts be transparent but aren't willing to ask the same thing of the Trump DOJ.",
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2025-07-24/pdf/CREC-2025-07-24-senate.pdf"
+      },
+      "reason2": {
+        "who": "Sen. Markwayne Mullin (R)",
+        "quote": "My colleague from Arizona's resolution tells the FBI and the DOJ how to do their job.",
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2025-07-24/pdf/CREC-2025-07-24-senate.pdf"
+      },
+      "id": "v16",
+      "phase": "july-2025"
     },
     {
       "date": "2025-07-30",
@@ -274,7 +709,22 @@
       "sources": [
         "https://www.govinfo.gov/content/pkg/CREC-2025-07-30/html/CREC-2025-07-30-pt1-PgS4888.htm"
       ],
-      "notes": ""
+      "notes": "",
+      "plain": "Pass the Senate version of the release bill",
+      "m": [
+        "eft"
+      ],
+      "t": [
+        "uc"
+      ],
+      "objR": 1,
+      "reason": {
+        "who": "Sen. John Barrasso (R)",
+        "quote": "this exercise is a Democrat distraction",
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2025-07-30/html/CREC-2025-07-30-pt1-PgS4888.htm"
+      },
+      "id": "v17",
+      "phase": "july-2025"
     },
     {
       "date": "2025-08-02",
@@ -285,9 +735,28 @@
       "D": null,
       "blocked": true,
       "sources": [
-        "https://www.govinfo.gov/content/pkg/CREC-2025-08-02/html/CREC-2025-08-02-pt1-PgS5482.htm"
+        "https://www.govinfo.gov/content/pkg/CREC-2025-08-02/html/CREC-2025-08-02-pt1-PgS5482.htm",
+        "https://www.govinfo.gov/content/pkg/CREC-2025-08-02/html/CREC-2025-08-02-pt1-PgS5484.htm",
+        "https://www.govinfo.gov/content/pkg/CREC-2025-08-02/html/CREC-2025-08-02-pt1-PgS5502-4.htm"
       ],
-      "notes": "Counted as four objections."
+      "notes": "Counted as four objections.",
+      "plain": "Pass the release bill (three tries) and the preserve-the-records language (one try)",
+      "m": [
+        "eft",
+        "vhd"
+      ],
+      "t": [
+        "uc"
+      ],
+      "objR": 4,
+      "explain": "Merkley, Blumenthal and Van Hollen each asked to pass the Senate release bill; Van Hollen also asked to pass the Appropriations Committee's preserve-and-report language on its own. Barrasso objected each time, citing Democrats' holds on Trump's nominees.",
+      "reason": {
+        "who": "Sen. John Barrasso (R)",
+        "quote": "a historic obstruction by the Democrats of President Trump's qualified nominees, and therefore I object",
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2025-08-02/html/CREC-2025-08-02-pt1-PgS5482.htm"
+      },
+      "id": "v18",
+      "phase": "july-2025"
     },
     {
       "date": "2025-09-02",
@@ -306,7 +775,16 @@
       "sources": [
         "https://www.govinfo.gov/content/pkg/CRPT-119hrpt232/html/CRPT-119hrpt232.htm"
       ],
-      "notes": ""
+      "notes": "",
+      "plain": "Hold the attorney general in contempt if the Justice Department ignores the Oversight subpoena",
+      "m": [
+        "hres668"
+      ],
+      "t": [
+        "rules"
+      ],
+      "id": "v19",
+      "phase": "september-2025"
     },
     {
       "date": "2025-09-02",
@@ -325,7 +803,16 @@
       "sources": [
         "https://www.govinfo.gov/content/pkg/CRPT-119hrpt232/html/CRPT-119hrpt232.htm"
       ],
-      "notes": ""
+      "notes": "",
+      "plain": "Bring up the release bill",
+      "m": [
+        "eft"
+      ],
+      "t": [
+        "rules"
+      ],
+      "id": "v20",
+      "phase": "september-2025"
     },
     {
       "date": "2025-09-02",
@@ -344,7 +831,16 @@
       "sources": [
         "https://www.govinfo.gov/content/pkg/CRPT-119hrpt232/html/CRPT-119hrpt232.htm"
       ],
-      "notes": ""
+      "notes": "",
+      "plain": "Require Democrats' agreement before Oversight redacts or withholds records",
+      "m": [
+        "hres668"
+      ],
+      "t": [
+        "rules"
+      ],
+      "id": "v21",
+      "phase": "september-2025"
     },
     {
       "date": "2025-09-02",
@@ -363,7 +859,17 @@
       "sources": [
         "https://www.govinfo.gov/content/pkg/CRPT-119hrpt232/html/CRPT-119hrpt232.htm"
       ],
-      "notes": ""
+      "notes": "",
+      "plain": "Send the rule adopting the Republican Oversight resolution to the floor",
+      "m": [
+        "hres668",
+        "rules"
+      ],
+      "t": [
+        "rules"
+      ],
+      "id": "v22",
+      "phase": "september-2025"
     },
     {
       "date": "2025-09-03",
@@ -380,9 +886,21 @@
       ],
       "blocked": true,
       "sources": [
-        "https://clerk.house.gov/Votes/2025221"
+        "https://clerk.house.gov/Votes/2025221",
+        "https://www.govinfo.gov/content/pkg/CREC-2025-09-03/pdf/CREC-2025-09-03-house.pdf"
       ],
-      "notes": "Procedural."
+      "notes": "Procedural.",
+      "plain": "Shut off the attempt to bring up the release bill",
+      "m": [
+        "eft",
+        "rules"
+      ],
+      "t": [
+        "pq"
+      ],
+      "explain": "Democrats said a defeated previous question would let them bring up the release bill.",
+      "id": "v23",
+      "phase": "september-2025"
     },
     {
       "date": "2025-09-03",
@@ -402,7 +920,14 @@
         "https://clerk.house.gov/Votes/2025222",
         "https://www.foxnews.com/politics/house-moves-expose-epstein-files-authorizes-oversight-probe"
       ],
-      "notes": "The only floor vote on the GOP's own Epstein resolution; bundled with unrelated items."
+      "notes": "The only floor vote on the GOP's own Epstein resolution; bundled with unrelated items.",
+      "plain": "Adopt the rule, which also passed the Republican Oversight resolution",
+      "m": [
+        "hres668",
+        "rules"
+      ],
+      "id": "v24",
+      "phase": "september-2025"
     },
     {
       "date": "2025-09-09",
@@ -422,7 +947,16 @@
         "https://www.govinfo.gov/content/pkg/CRPT-119hrpt255/html/CRPT-119hrpt255.htm",
         "https://newrepublic.com/post/200213/list-house-republicans-voted-kill-epstein-bill"
       ],
-      "notes": ""
+      "notes": "",
+      "plain": "Bring up the release bill",
+      "m": [
+        "eft"
+      ],
+      "t": [
+        "rules"
+      ],
+      "id": "v25",
+      "phase": "september-2025"
     },
     {
       "date": "2025-09-09",
@@ -441,7 +975,13 @@
       "sources": [
         "https://www.americanbanker.com/news/house-committee-gop-blocks-epstein-subpoena-to-treasury"
       ],
-      "notes": "No official roll call posted; tally reconstructed from names in American Banker."
+      "notes": "No official roll call posted; tally reconstructed from names in American Banker.",
+      "plain": "Kill a motion to subpoena Treasury for Epstein's financial records",
+      "t": [
+        "table"
+      ],
+      "id": "v26",
+      "phase": "september-2025"
     },
     {
       "date": "2025-09-10",
@@ -460,7 +1000,10 @@
       "sources": [
         "https://docs.house.gov/meetings/AP/AP00/20250910/118544/HMKP-119-AP00-20250910-SD004.pdf"
       ],
-      "notes": ""
+      "notes": "",
+      "plain": "Require the attorney general to give the committee all Epstein and Maxwell materials",
+      "id": "v27",
+      "phase": "september-2025"
     },
     {
       "date": "2025-09-10",
@@ -479,7 +1022,10 @@
       "sources": [
         "https://docs.house.gov/meetings/AP/AP00/20250910/118544/HMKP-119-AP00-20250910-SD004.pdf"
       ],
-      "notes": ""
+      "notes": "",
+      "plain": "Bar spending money to withhold, redact or delay unclassified Epstein-Maxwell records",
+      "id": "v28",
+      "phase": "september-2025"
     },
     {
       "date": "2025-09-10",
@@ -498,7 +1044,16 @@
       "sources": [
         "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1191/vote_119_1_00512.htm"
       ],
-      "notes": "R no: Hawley, Paul. Independents 0-2."
+      "notes": "R no: Hawley, Paul. Independents 0-2.",
+      "plain": "Kill Schumer's amendment to publish the Epstein documents",
+      "m": [
+        "schumer3849"
+      ],
+      "t": [
+        "table"
+      ],
+      "id": "v29",
+      "phase": "september-2025"
     },
     {
       "date": "2025-09-15",
@@ -517,7 +1072,16 @@
       "sources": [
         "https://www.govinfo.gov/content/pkg/CRPT-119hrpt298/html/CRPT-119hrpt298.htm"
       ],
-      "notes": ""
+      "notes": "",
+      "plain": "Bring up the release bill",
+      "m": [
+        "eft"
+      ],
+      "t": [
+        "rules"
+      ],
+      "id": "v30",
+      "phase": "september-2025"
     },
     {
       "date": "2025-09-17",
@@ -536,7 +1100,13 @@
       "sources": [
         "https://docs.house.gov/meetings/JU/JU00/20250917/118612/CRPT-119-JU00-Vote001-20250917.pdf"
       ],
-      "notes": "Massie the only R no. Motion subjects from CNN/NBC/The Hill coverage."
+      "notes": "Massie the only R no. Motion subjects from CNN/NBC/The Hill coverage.",
+      "plain": "Kill a motion to subpoena the CEOs of four banks",
+      "t": [
+        "table"
+      ],
+      "id": "v31",
+      "phase": "september-2025"
     },
     {
       "date": "2025-09-17",
@@ -555,7 +1125,13 @@
       "sources": [
         "https://docs.house.gov/meetings/JU/JU00/20250917/118612/CRPT-119-JU00-Vote002-20250917.pdf"
       ],
-      "notes": ""
+      "notes": "",
+      "plain": "Kill a motion to subpoena Treasury Secretary Scott Bessent",
+      "t": [
+        "table"
+      ],
+      "id": "v32",
+      "phase": "september-2025"
     },
     {
       "date": "2025-09-17",
@@ -574,7 +1150,13 @@
       "sources": [
         "https://docs.house.gov/meetings/JU/JU00/20250917/118612/CRPT-119-JU00-Vote003-20250917.pdf"
       ],
-      "notes": ""
+      "notes": "",
+      "plain": "Kill a motion to subpoena Deputy FBI Director Dan Bongino",
+      "t": [
+        "table"
+      ],
+      "id": "v33",
+      "phase": "september-2025"
     },
     {
       "date": "2025-09-17",
@@ -593,7 +1175,13 @@
       "sources": [
         "https://docs.house.gov/meetings/JU/JU00/20250917/118612/CRPT-119-JU00-Vote004-20250917.pdf"
       ],
-      "notes": ""
+      "notes": "",
+      "plain": "Kill a motion to subpoena the Bureau of Prisons over Maxwell's transfer",
+      "t": [
+        "table"
+      ],
+      "id": "v34",
+      "phase": "september-2025"
     },
     {
       "date": "2025-11-17",
@@ -612,7 +1200,18 @@
       "sources": [
         "https://www.govinfo.gov/content/pkg/CRPT-119hrpt380/html/CRPT-119hrpt380.htm"
       ],
-      "notes": ""
+      "notes": "",
+      "plain": "Keep the discharge petition's route open in case the release bill failed",
+      "m": [
+        "eft",
+        "hres581"
+      ],
+      "t": [
+        "rules",
+        "discharge"
+      ],
+      "id": "v35",
+      "phase": "november-2025"
     },
     {
       "date": "2025-11-17",
@@ -631,7 +1230,17 @@
       "sources": [
         "https://www.govinfo.gov/content/pkg/CRPT-119hrpt380/html/CRPT-119hrpt380.htm"
       ],
-      "notes": ""
+      "notes": "",
+      "plain": "Send the rule that retires the discharge petition after passage to the floor",
+      "m": [
+        "hres581",
+        "rules"
+      ],
+      "t": [
+        "rules"
+      ],
+      "id": "v36",
+      "phase": "november-2025"
     },
     {
       "date": "2025-11-18",
@@ -644,7 +1253,16 @@
       "sources": [
         "https://www.govinfo.gov/content/pkg/CREC-2025-11-18/pdf/CREC-2025-11-18-senate.pdf"
       ],
-      "notes": ""
+      "notes": "",
+      "plain": "Pass the release bill as soon as it arrives from the House",
+      "m": [
+        "eft"
+      ],
+      "t": [
+        "uc"
+      ],
+      "id": "v37",
+      "phase": "november-2025"
     },
     {
       "date": "2025-11-18",
@@ -663,7 +1281,16 @@
       "sources": [
         "https://clerk.house.gov/Votes/2025289"
       ],
-      "notes": "Higgins (R-LA) the only no. Trump had reversed Nov 16."
+      "notes": "Higgins (R-LA) the only no. Trump had reversed Nov 16.",
+      "id": "roll-289",
+      "plain": "Pass the Epstein Files Transparency Act",
+      "m": [
+        "eft"
+      ],
+      "t": [
+        "suspension"
+      ],
+      "phase": "november-2025"
     },
     {
       "date": "2025-11-18",
@@ -682,7 +1309,14 @@
       "sources": [
         "https://clerk.house.gov/Votes/2025291"
       ],
-      "notes": "Weak Epstein link: section 8 tabled the discharge rule after passage."
+      "notes": "Weak Epstein link: section 8 tabled the discharge rule after passage.",
+      "plain": "Adopt the rule that retired the discharge petition",
+      "m": [
+        "hres581",
+        "rules"
+      ],
+      "id": "v39",
+      "phase": "november-2025"
     },
     {
       "date": "2025-11-19",
@@ -695,7 +1329,13 @@
       "sources": [
         "https://www.congress.gov/bill/119th-congress/house-bill/4405/all-actions"
       ],
-      "notes": ""
+      "notes": "",
+      "plain": "The release bill passes the Senate; Trump signs it",
+      "m": [
+        "eft"
+      ],
+      "id": "v40",
+      "phase": "november-2025"
     },
     {
       "date": "2026-01-21",
@@ -714,7 +1354,10 @@
       "sources": [
         "https://docs.house.gov/meetings/GO/GO00/20260121/118877/CRPT-119-GO00-Vote001-20260121.pdf"
       ],
-      "notes": "ABC reported a voice vote; the official record shows a recorded vote."
+      "notes": "ABC reported a voice vote; the official record shows a recorded vote.",
+      "id": "jan21-bondi",
+      "plain": "Go to court to enforce the subpoena on Attorney General Bondi, instead of holding Bill Clinton in contempt",
+      "phase": "year-2026"
     },
     {
       "date": "2026-01-21",
@@ -733,7 +1376,10 @@
       "sources": [
         "https://docs.house.gov/meetings/GO/GO00/20260121/118877/CRPT-119-GO00-Vote002-20260121.pdf"
       ],
-      "notes": ""
+      "notes": "",
+      "plain": "Take Bill Clinton to civil court instead of holding him in criminal contempt",
+      "id": "v42",
+      "phase": "year-2026"
     },
     {
       "date": "2026-01-21",
@@ -752,7 +1398,10 @@
       "sources": [
         "https://docs.house.gov/meetings/GO/GO00/20260121/118877/CRPT-119-GO00-Vote003-20260121.pdf"
       ],
-      "notes": ""
+      "notes": "",
+      "plain": "Hold Bill Clinton in contempt for defying the committee's subpoena",
+      "id": "v43",
+      "phase": "year-2026"
     },
     {
       "date": "2026-01-21",
@@ -771,7 +1420,10 @@
       "sources": [
         "https://docs.house.gov/meetings/GO/GO00/20260121/118877/CRPT-119-GO00-Vote004-20260121.pdf"
       ],
-      "notes": "The Clintons then agreed to testify; no floor vote."
+      "notes": "The Clintons then agreed to testify; no floor vote.",
+      "plain": "Hold Hillary Clinton in contempt for defying the committee's subpoena",
+      "id": "v44",
+      "phase": "year-2026"
     },
     {
       "date": "2026-02-05",
@@ -784,7 +1436,22 @@
       "sources": [
         "https://www.govinfo.gov/content/pkg/CREC-2026-02-05/html/CREC-2026-02-05-pt1-PgS501-2.htm"
       ],
-      "notes": ""
+      "notes": "",
+      "plain": "Let the Senate sue the Justice Department to enforce the release law",
+      "m": [
+        "sres597"
+      ],
+      "t": [
+        "uc"
+      ],
+      "objR": 1,
+      "reason": {
+        "who": "Sen. John Barrasso (R)",
+        "quote": "this is another reckless political stunt designed to distract Americans from Democrats' dangerous plan to shut down the Department of Homeland Security",
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-02-05/html/CREC-2026-02-05-pt1-PgS501-2.htm"
+      },
+      "id": "v45",
+      "phase": "year-2026"
     },
     {
       "date": "2026-03-03",
@@ -797,7 +1464,22 @@
       "sources": [
         "https://www.govinfo.gov/content/pkg/CREC-2026-03-03/html/CREC-2026-03-03-pt1-PgS748-2.htm"
       ],
-      "notes": ""
+      "notes": "",
+      "plain": "Make Treasury hand the Senate the bank reports on Epstein's transactions",
+      "m": [
+        "s2746"
+      ],
+      "t": [
+        "uc"
+      ],
+      "objR": 1,
+      "reason": {
+        "who": "Sen. Mike Crapo (R)",
+        "quote": "it would not be helpful for either the Senate Finance or the Senate Banking Committee to confound the process by attempting to duplicate or compete with their work",
+        "url": "https://www.govinfo.gov/content/pkg/CREC-2026-03-03/html/CREC-2026-03-03-pt1-PgS748-2.htm"
+      },
+      "id": "v46",
+      "phase": "year-2026"
     },
     {
       "date": "2026-03-04",
@@ -816,7 +1498,10 @@
       "sources": [
         "https://docs.house.gov/meetings/GO/GO00/20260304/119003/CRPT-119-GO00-Vote002-20260304.pdf"
       ],
-      "notes": "R yes: Cloud, Mace, Perry, Burchett, Boebert. Bondi later skipped her April 14 deposition; no contempt vote followed."
+      "notes": "R yes: Cloud, Mace, Perry, Burchett, Boebert. Bondi later skipped her April 14 deposition; no contempt vote followed.",
+      "id": "bondi-subpoena",
+      "plain": "Subpoena Attorney General Pam Bondi",
+      "phase": "year-2026"
     },
     {
       "date": "2026-09-15",
@@ -835,7 +1520,10 @@
       "sources": [
         "https://docs.house.gov/meetings/GO/GO00/20260915/119567/CRPT-119-GO00-Vote001-20260915.pdf"
       ],
-      "notes": "Comer says the House adopted it by unanimous consent Sept 16; not checked against the Clerk."
+      "notes": "Comer says the House adopted it by unanimous consent Sept 16; not checked against the Clerk.",
+      "plain": "Hold financier Leon Black in contempt for defying the committee's subpoenas",
+      "id": "v48",
+      "phase": "year-2026"
     }
   ],
   "related": [
@@ -851,7 +1539,8 @@
       "date": "2026-07-29",
       "what": "Senate adopted Rosen's S.Res. 608 opposing clemency for Ghislaine Maxwell by unanimous consent",
       "urls": [
-        "https://dailypress.senate.gov/"
+        "https://www.congress.gov/bill/119th-congress/senate-resolution/608",
+        "https://www.dailypress.senate.gov/wednesday-july-29-2026/"
       ]
     }
   ],
@@ -881,7 +1570,8 @@
         "Norman",
         "Fitzpatrick"
       ],
-      "note": "No floor vote; the House has cast no Epstein floor vote in 2026."
+      "note": "No floor vote; the House has cast no Epstein floor vote in 2026.",
+      "url": "https://clerk.house.gov/DischargePetition/2026083127"
     },
     "trump": [
       {

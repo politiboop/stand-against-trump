@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
+import { countSources, readMinutes } from '../lib/article-stats';
 
 const articles = [
   {
@@ -69,11 +70,11 @@ const articles = [
   },
 ];
 
-// Source counts come from the articles themselves (distinct linked URLs), the same way each article page counts them.
+// Source counts and read times come from the articles themselves, the same way each article page computes them.
 const bodies = new Map((await getCollection('articles')).map((a) => [a.id, a.body ?? '']));
 for (const a of articles) {
   const body = bodies.get(a.slug);
-  if (body !== undefined) a.sources = new Set([...body.matchAll(/\]\((https?:[^)\s]+)\)/g)].map((m) => m[1])).size;
+  if (body !== undefined) { a.sources = countSources(body); a.readTime = `${readMinutes(body)} min`; }
 }
 ---
 
