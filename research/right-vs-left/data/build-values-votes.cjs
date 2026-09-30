@@ -171,9 +171,9 @@ const votes = [
       { chamber: 'House', date: '2022-03-09', question: 'Omnibus "remaining divisions" including VAWA (Division W)', result: 'Passed 260-171, 1 present', R: [39, 171, 1], D: [221, 0, 0], I: null, url: HOU(2022, 66), note: 'A package vote; no standalone VAWA vote.' },
     ],
     objections: [
-      { who: 'Rep. Kevin Cramer (R-ND), 2013', date: '2013-02-28', quote: 'Please consider the damage we have done if a court overturns this act and its protection all because we wanted a good slogan instead of a good law.', url: 'https://www.cnn.com/2013/02/28/politics/violence-against-women' },
-      { who: 'House Judiciary Republican dissent (signed by Doug Collins, Mike Johnson and others), 2019', date: '2019-03-27', quote: 'H.R. 1585 includes language related to firearms and restricting their possession.', url: 'https://www.govinfo.gov/content/pkg/CRPT-116hrpt21/pdf/CRPT-116hrpt21-pt1.pdf' },
-      { who: 'NRA spokeswoman Jennifer Baker, 2019', date: '2019-04-04', quote: 'The gun control lobby and anti-gun politicians are intentionally politicizing the Violence Against Women Act as a smokescreen to push their gun control agenda.', url: 'https://www.npr.org/2019/04/04/707685268/violence-against-women-act-gets-tangled-up-in-gun-rights-debate' },
+      { who: 'Rep. Kevin Cramer (R-ND)', date: '2013-02-28', quote: 'Please consider the damage we have done if a court overturns this act and its protection all because we wanted a good slogan instead of a good law.', url: 'https://www.cnn.com/2013/02/28/politics/violence-against-women' },
+      { who: 'House Judiciary Republican dissent (signed by Doug Collins, Mike Johnson and others)', date: '2019-03-27', quote: 'H.R. 1585 includes language related to firearms and restricting their possession.', url: 'https://www.govinfo.gov/content/pkg/CRPT-116hrpt21/pdf/CRPT-116hrpt21-pt1.pdf' },
+      { who: 'NRA spokeswoman Jennifer Baker', date: '2019-04-04', quote: 'The gun control lobby and anti-gun politicians are intentionally politicizing the Violence Against Women Act as a smokescreen to push their gun control agenda.', url: 'https://www.npr.org/2019/04/04/707685268/violence-against-women-act-gets-tangled-up-in-gun-rights-debate' },
     ],
     complications: ['Senate Republicans split 23-22 in favor in 2013.', 'The 2022 reauthorization dropped the "boyfriend loophole" gun provision.'],
     confidence: 'high',
@@ -199,3 +199,38 @@ const votes = [
 
 fs.writeFileSync(__dirname + '/values-votes.json', JSON.stringify({ updated: '2026-09-30', note: 'Party splits are [yea, nay, not voting]. I = independents.', votes }, null, 2) + '\n');
 console.log('wrote values-votes.json:', votes.length, 'topics,', votes.reduce((n, v) => n + v.rollcalls.length, 0), 'roll calls');
+
+// ── Presentation layer: plain-English headlines and vote labels, and value statements for every topic.
+// Kept separate from the record above so the facts are edited in one place. Re-run this file to apply.
+const PRESENT = {
+  'border-deal-feb-2024': { stat: '4 of 48', headline: 'Senate Republicans voted to take up the border deal their own negotiator wrote.', plain: ['Take up the bipartisan border deal', 'Take up the border deal on its own'] },
+  'right-to-ivf-2024': { stat: '2 of 48', headline: 'Senate Republicans voted to take up the Right to IVF Act. On a second try, after their platform endorsed IVF, it was 2 again.', plain: ['Take up the Right to IVF Act', 'Take it up again, after the platform endorsed IVF'] },
+  'right-to-contraception-2024': { stat: '2 of 40', headline: 'Senate Republicans voted to take up the Right to Contraception Act, a month before their platform endorsed access to birth control.', plain: ['Take up the Right to Contraception Act'] },
+  'child-tax-credit-2024': { stat: '3 of 44', headline: 'Senate Republicans voted to take up a child tax credit expansion that House Republicans had passed 169 to 47.', plain: ['Pass the expanded child tax credit', 'Take up the same bill'],
+    value: { who: '2024 Republican platform', quote: 'make permanent the provisions of the Trump Tax Cuts and Jobs Act that doubled the standard deduction, expanded the Child Tax Credit', url: PLATFORM_2024, note: 'Adopted July 2024, before the Senate vote' } },
+  'insulin-cap-2022': { stat: '7 of 50', headline: 'Senate Republicans voted to keep a $35 monthly cap on insulin for people with private insurance.', plain: ['Keep the $35 insulin cap for private insurance', "Republicans' narrower alternative: insulin at community health centers"],
+    value: { who: '2024 Republican platform', quote: 'Healthcare and prescription drug costs are out of control.', url: PLATFORM_2024, note: 'Adopted two years after the vote' } },
+  'disclose-act-2022': { stat: '0 of 49', headline: 'Senate Republicans voted to take up a bill requiring disclosure of big political donors.', plain: ['Take up the DISCLOSE Act'] },
+  'jan6-commission-2021': { stat: '35 of 210', headline: 'House Republicans voted for an independent commission on the attack on the Capitol.', plain: ['Create an independent January 6 commission', 'Take up the commission bill', 'Gold medals for the Capitol Police'] },
+  'infrastructure-2021': { stat: '13 of 213', headline: 'House Republicans voted for the infrastructure law Trump had promised in 2016.', plain: ['Pass the infrastructure law', 'Pass it in the Senate'] },
+  'chips-act-2022': { stat: '24 of 211', headline: 'House Republicans voted for the CHIPS Act, meant to help the U.S. compete with China on chips.', plain: ['Pass the CHIPS and Science Act', 'Pass it in the Senate'] },
+  'safer-communities-2022': { stat: '14 of 207', headline: 'House Republicans voted for a gun-safety law that also funded mental health care.', plain: ['Pass the Bipartisan Safer Communities Act', 'Pass it in the Senate'] },
+  'infant-formula-2022': { stat: '12 of 204', headline: 'House Republicans voted for $28 million to help the FDA during the baby-formula shortage.', plain: ['$28 million for the FDA during the formula shortage', 'Loosen WIC rules during shortages'],
+    value: { who: '2024 Republican platform', quote: 'supporting mothers and policies that advance Prenatal Care', url: PLATFORM_2024, note: 'Adopted two years after the vote' } },
+  'pact-act-2022': { stat: '25', headline: "Republican senators voted for the veterans' burn-pits bill, then against it, then for it again.", plain: ['Pass the burn-pits bill', 'Advance the same bill, six weeks later', 'Pass it, after the outcry'] },
+  'vawa-reauthorizations': { stat: '138 · 157 · 172', headline: 'House Republicans voted against the Violence Against Women Act in 2013, 2019 and 2021: most of the party each time.', plain: ['Reauthorize the Violence Against Women Act', 'The same bill in the Senate', 'Reauthorize it again', 'Reauthorize it again', 'A spending package that included it'],
+    value: { who: 'House Majority Leader Eric Cantor, 2013 (per CNN)', quote: 'make sure all women are safe', url: 'https://www.cnn.com/2013/02/28/politics/violence-against-women' },
+    addComplication: 'Cantor, who said the goal was to "make sure all women are safe," voted no on the bill that passed (House roll call 55, 2013).' },
+  'fiscal-votes-for': { stat: '51 of 51', headline: 'Senate Republicans voted for the 2017 tax law, which the budget office says added $1.9 trillion to deficits, a year after their platform demanded a balanced budget.', plain: ['Pass the 2017 tax law', 'Pass it in the Senate', 'The 2023 debt-limit deal'] },
+};
+for (const t of votes) {
+  const p = PRESENT[t.id];
+  if (!p) throw new Error('no presentation for ' + t.id);
+  if (p.plain.length !== t.rollcalls.length) throw new Error(`${t.id}: ${p.plain.length} labels for ${t.rollcalls.length} roll calls`);
+  t.stat = p.stat; t.headline = p.headline;
+  t.rollcalls.forEach((r, i) => { r.plain = p.plain[i]; });
+  if (p.value) t.value = p.value;
+  if (p.addComplication && !t.complications.includes(p.addComplication)) t.complications.push(p.addComplication);
+}
+fs.writeFileSync(__dirname + '/values-votes.json', JSON.stringify({ updated: '2026-09-30', note: 'Party splits are [yea, nay, not voting]. I = independents.', votes }, null, 2) + '\n');
+console.log('applied presentation layer');

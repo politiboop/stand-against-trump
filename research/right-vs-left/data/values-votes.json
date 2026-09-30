@@ -33,7 +33,8 @@
             0
           ],
           "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1182/vote_118_2_00039.htm",
-          "note": "R yes: Collins, Lankford, Murkowski, Romney. The page names only H.R. 815; FactCheck.org ties it to the border deal."
+          "note": "R yes: Collins, Lankford, Murkowski, Romney. The page names only H.R. 815; FactCheck.org ties it to the border deal.",
+          "plain": "Take up the bipartisan border deal"
         },
         {
           "chamber": "Senate",
@@ -56,7 +57,8 @@
             0
           ],
           "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1182/vote_118_2_00182.htm",
-          "note": "R yes: Murkowski. Lankford, its author, voted no."
+          "note": "R yes: Murkowski. Lankford, its author, voted no.",
+          "plain": "Take up the border deal on its own"
         }
       ],
       "objections": [
@@ -91,7 +93,9 @@
         "FactCheck.org rated Trump's \"5,000 encounters\" description wrong: emergency authority began at 4,000 a day.",
         "The factcheck: https://www.factcheck.org/2024/02/unraveling-misinformation-about-bipartisan-immigration-bill/"
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "stat": "4 of 48",
+      "headline": "Senate Republicans voted to take up the border deal their own negotiator wrote."
     },
     {
       "id": "right-to-ivf-2024",
@@ -124,7 +128,8 @@
             2
           ],
           "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1182/vote_118_2_00197.htm",
-          "note": "R yes: Collins, Murkowski. Schumer no for procedural reasons."
+          "note": "R yes: Collins, Murkowski. Schumer no for procedural reasons.",
+          "plain": "Take up the Right to IVF Act"
         },
         {
           "chamber": "Senate",
@@ -138,7 +143,8 @@
           ],
           "D": null,
           "I": null,
-          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1182/vote_118_2_00242.htm"
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1182/vote_118_2_00242.htm",
+          "plain": "Take it up again, after the platform endorsed IVF"
         }
       ],
       "objections": [
@@ -159,7 +165,9 @@
         "Republicans offered the Britt-Cruz IVF Protection Act; Democrats blocked it by objection June 12, 2024.",
         "The Democratic bill included an insurance-coverage mandate, the \"overreach\" Republicans cited."
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "stat": "2 of 48",
+      "headline": "Senate Republicans voted to take up the Right to IVF Act. On a second try, after their platform endorsed IVF, it was 2 again."
     },
     {
       "id": "right-to-contraception-2024",
@@ -191,7 +199,8 @@
             0
           ],
           "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1182/vote_118_2_00190.htm",
-          "note": "R yes: Collins, Murkowski. 9 Republicans did not vote."
+          "note": "R yes: Collins, Murkowski. 9 Republicans did not vote.",
+          "plain": "Take up the Right to Contraception Act"
         }
       ],
       "objections": [
@@ -211,16 +220,18 @@
       "complications": [
         "Sen. Joni Ernst had a separate contraception-access bill."
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "stat": "2 of 40",
+      "headline": "Senate Republicans voted to take up the Right to Contraception Act, a month before their platform endorsed access to birth control."
     },
     {
       "id": "child-tax-credit-2024",
       "theme": "families / children",
       "value": {
-        "who": "Pro-family positioning (no single quote gathered)",
-        "quote": null,
-        "url": null,
-        "note": "[NEEDS SOURCE] for a specific GOP pro-family pledge tied to the child tax credit"
+        "who": "2024 Republican platform",
+        "quote": "make permanent the provisions of the Trump Tax Cuts and Jobs Act that doubled the standard deduction, expanded the Child Tax Credit",
+        "url": "https://www.presidency.ucsb.edu/documents/2024-republican-party-platform",
+        "note": "Adopted July 2024, before the Senate vote"
       },
       "rollcalls": [
         {
@@ -239,7 +250,8 @@
             2
           ],
           "I": null,
-          "url": "https://clerk.house.gov/Votes/2024030"
+          "url": "https://clerk.house.gov/Votes/2024030",
+          "plain": "Pass the expanded child tax credit"
         },
         {
           "chamber": "Senate",
@@ -262,7 +274,8 @@
             0
           ],
           "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1182/vote_118_2_00230.htm",
-          "note": "R yes: Hawley, Mullin, Scott (FL)."
+          "note": "R yes: Hawley, Mullin, Scott (FL).",
+          "plain": "Take up the same bill"
         }
       ],
       "objections": [
@@ -277,16 +290,18 @@
         "House Republicans backed it 169-47; the split was Senate vs. House Republicans, not party vs. party.",
         "Crapo conceded \"there are plenty of provisions in the bill that my colleagues and I support.\""
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "stat": "3 of 44",
+      "headline": "Senate Republicans voted to take up a child tax credit expansion that House Republicans had passed 169 to 47."
     },
     {
       "id": "insulin-cap-2022",
       "theme": "lower costs",
       "value": {
-        "who": null,
-        "quote": null,
-        "url": null,
-        "note": "[NEEDS SOURCE] for a GOP pledge on drug or insulin prices"
+        "who": "2024 Republican platform",
+        "quote": "Healthcare and prescription drug costs are out of control.",
+        "url": "https://www.presidency.ucsb.edu/documents/2024-republican-party-platform",
+        "note": "Adopted two years after the vote"
       },
       "rollcalls": [
         {
@@ -310,7 +325,8 @@
             0
           ],
           "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00314.htm",
-          "note": "R yes: Cassidy, Collins, Hawley, Hyde-Smith, Kennedy, Murkowski, Sullivan."
+          "note": "R yes: Cassidy, Collins, Hawley, Hyde-Smith, Kennedy, Murkowski, Sullivan.",
+          "plain": "Keep the $35 insulin cap for private insurance"
         },
         {
           "chamber": "Senate",
@@ -332,7 +348,8 @@
             2,
             0
           ],
-          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00313.htm"
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00313.htm",
+          "plain": "Republicans' narrower alternative: insulin at community health centers"
         }
       ],
       "objections": [
@@ -353,7 +370,9 @@
         "The parliamentarian had ruled the cap violated the Byrd rule; the vote was on waiving that ruling.",
         "The $35 cap for Medicare stayed in the law."
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "stat": "7 of 50",
+      "headline": "Senate Republicans voted to keep a $35 monthly cap on insulin for people with private insurance."
     },
     {
       "id": "disclose-act-2022",
@@ -385,7 +404,8 @@
             0,
             0
           ],
-          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00346.htm"
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00346.htm",
+          "plain": "Take up the DISCLOSE Act"
         }
       ],
       "objections": [
@@ -400,7 +420,9 @@
         "McConnell rests on associational privacy (NAACP v. Alabama) and notes the ACLU has opposed versions of the bill.",
         "A \"McConnell once backed disclosure\" angle is [NEEDS SOURCE]."
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "stat": "0 of 49",
+      "headline": "Senate Republicans voted to take up a bill requiring disclosure of big political donors."
     },
     {
       "id": "jan6-commission-2021",
@@ -428,7 +450,8 @@
             2
           ],
           "I": null,
-          "url": "https://clerk.house.gov/Votes/2021154"
+          "url": "https://clerk.house.gov/Votes/2021154",
+          "plain": "Create an independent January 6 commission"
         },
         {
           "chamber": "Senate",
@@ -451,7 +474,8 @@
             0
           ],
           "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1171/vote_117_1_00218.htm",
-          "note": "R yes: Cassidy, Collins, Murkowski, Portman, Romney, Sasse. Party split tallied from the member list."
+          "note": "R yes: Cassidy, Collins, Murkowski, Portman, Romney, Sasse. Party split tallied from the member list.",
+          "plain": "Take up the commission bill"
         },
         {
           "chamber": "House",
@@ -470,7 +494,8 @@
           ],
           "I": null,
           "url": "https://clerk.house.gov/Votes/2021161",
-          "note": "The 21 no votes objected to the wording (\"insurrectionists\"), not to honoring police."
+          "note": "The 21 no votes objected to the wording (\"insurrectionists\"), not to honoring police.",
+          "plain": "Gold medals for the Capitol Police"
         }
       ],
       "objections": [
@@ -491,7 +516,9 @@
         "The commission bill met a GOP demand for equal membership from each party.",
         "The platform came three years after these votes."
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "stat": "35 of 210",
+      "headline": "House Republicans voted for an independent commission on the attack on the Capitol."
     },
     {
       "id": "infrastructure-2021",
@@ -519,7 +546,8 @@
           ],
           "I": null,
           "url": "https://clerk.house.gov/Votes/2021369",
-          "note": "The 13 Republicans were decisive; 6 progressive Democrats voted no."
+          "note": "The 13 Republicans were decisive; 6 progressive Democrats voted no.",
+          "plain": "Pass the infrastructure law"
         },
         {
           "chamber": "Senate",
@@ -534,7 +562,8 @@
           "D": null,
           "I": null,
           "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1171/vote_117_1_00314.htm",
-          "note": "McConnell voted yes."
+          "note": "McConnell voted yes.",
+          "plain": "Pass it in the Senate"
         }
       ],
       "objections": [
@@ -554,7 +583,9 @@
       "complications": [
         "The House GOP objection was mainly the link to Build Back Better."
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "stat": "13 of 213",
+      "headline": "House Republicans voted for the infrastructure law Trump had promised in 2016."
     },
     {
       "id": "chips-act-2022",
@@ -581,7 +612,8 @@
             0
           ],
           "I": null,
-          "url": "https://clerk.house.gov/Votes/2022404"
+          "url": "https://clerk.house.gov/Votes/2022404",
+          "plain": "Pass the CHIPS and Science Act"
         },
         {
           "chamber": "Senate",
@@ -596,7 +628,8 @@
           "D": null,
           "I": null,
           "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00271.htm",
-          "note": "Sanders (I) voted no."
+          "note": "Sanders (I) voted no.",
+          "plain": "Pass it in the Senate"
         }
       ],
       "objections": [
@@ -610,7 +643,9 @@
       "complications": [
         "House GOP leaders switched to opposition after the Schumer-Manchin reconciliation deal was announced."
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "stat": "24 of 211",
+      "headline": "House Republicans voted for the CHIPS Act, meant to help the U.S. compete with China on chips."
     },
     {
       "id": "safer-communities-2022",
@@ -639,7 +674,8 @@
           ],
           "I": null,
           "url": "https://clerk.house.gov/Votes/2022299",
-          "note": "Tony Gonzales, whose district includes Uvalde, voted yes."
+          "note": "Tony Gonzales, whose district includes Uvalde, voted yes.",
+          "plain": "Pass the Bipartisan Safer Communities Act"
         },
         {
           "chamber": "Senate",
@@ -661,7 +697,8 @@
             0,
             0
           ],
-          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00242.htm"
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00242.htm",
+          "plain": "Pass it in the Senate"
         }
       ],
       "objections": [
@@ -676,15 +713,18 @@
         "The bill itself funds mental health (CNN, paraphrasing Cornyn: $12 billion).",
         "Trump urged Republicans to vote no (NBC)."
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "stat": "14 of 207",
+      "headline": "House Republicans voted for a gun-safety law that also funded mental health care."
     },
     {
       "id": "infant-formula-2022",
       "theme": "families / children",
       "value": {
-        "who": null,
-        "quote": null,
-        "url": null
+        "who": "2024 Republican platform",
+        "quote": "supporting mothers and policies that advance Prenatal Care",
+        "url": "https://www.presidency.ucsb.edu/documents/2024-republican-party-platform",
+        "note": "Adopted two years after the vote"
       },
       "rollcalls": [
         {
@@ -704,7 +744,8 @@
           ],
           "I": null,
           "url": "https://clerk.house.gov/Votes/2022220",
-          "note": "Never became law."
+          "note": "Never became law.",
+          "plain": "$28 million for the FDA during the formula shortage"
         },
         {
           "chamber": "House",
@@ -723,7 +764,8 @@
           ],
           "I": null,
           "url": "https://clerk.house.gov/Votes/2022218",
-          "note": "Became law May 21, 2022."
+          "note": "Became law May 21, 2022.",
+          "plain": "Loosen WIC rules during shortages"
         }
       ],
       "objections": [
@@ -737,7 +779,9 @@
       "complications": [
         "Granger noted FDA's budget had risen $102 million two months earlier."
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "stat": "12 of 204",
+      "headline": "House Republicans voted for $28 million to help the FDA during the baby-formula shortage."
     },
     {
       "id": "pact-act-2022",
@@ -768,7 +812,8 @@
             0,
             0
           ],
-          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00230.htm"
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00230.htm",
+          "plain": "Pass the burn-pits bill"
         },
         {
           "chamber": "Senate",
@@ -791,7 +836,8 @@
             0
           ],
           "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00272.htm",
-          "note": "25 Republicans who voted yes in June voted no: Barrasso, Blackburn, Blunt, Braun, Cassidy, Cornyn, Cotton, Cramer, Cruz, Ernst, Fischer, Hagerty, Hawley, Hyde-Smith, Inhofe, Johnson, Kennedy, Marshall, McConnell, Portman, Sasse, Scott (FL), Scott (SC), Sullivan, Young."
+          "note": "25 Republicans who voted yes in June voted no: Barrasso, Blackburn, Blunt, Braun, Cassidy, Cornyn, Cotton, Cramer, Cruz, Ernst, Fischer, Hagerty, Hawley, Hyde-Smith, Inhofe, Johnson, Kennedy, Marshall, McConnell, Portman, Sasse, Scott (FL), Scott (SC), Sullivan, Young.",
+          "plain": "Advance the same bill, six weeks later"
         },
         {
           "chamber": "Senate",
@@ -813,7 +859,8 @@
             0,
             0
           ],
-          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00280.htm"
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1172/vote_117_2_00280.htm",
+          "plain": "Pass it, after the outcry"
         }
       ],
       "objections": [
@@ -828,15 +875,17 @@
         "Toomey voted no in June too; the 25 switchers were the inconsistency.",
         "Newsweek's fact-check (medium confidence, via summary) said nothing substantive changed between the votes."
       ],
-      "confidence": "high on roll calls; medium on whether texts were identical"
+      "confidence": "high on roll calls; medium on whether texts were identical",
+      "stat": "25",
+      "headline": "Republican senators voted for the veterans' burn-pits bill, then against it, then for it again."
     },
     {
       "id": "vawa-reauthorizations",
       "theme": "protecting women",
       "value": {
-        "who": null,
-        "quote": null,
-        "url": null
+        "who": "House Majority Leader Eric Cantor, 2013 (per CNN)",
+        "quote": "make sure all women are safe",
+        "url": "https://www.cnn.com/2013/02/28/politics/violence-against-women"
       },
       "rollcalls": [
         {
@@ -855,7 +904,8 @@
             1
           ],
           "I": null,
-          "url": "https://clerk.house.gov/Votes/2013055"
+          "url": "https://clerk.house.gov/Votes/2013055",
+          "plain": "Reauthorize the Violence Against Women Act"
         },
         {
           "chamber": "Senate",
@@ -877,7 +927,8 @@
             0,
             0
           ],
-          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1131/vote_113_1_00019.htm"
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1131/vote_113_1_00019.htm",
+          "plain": "The same bill in the Senate"
         },
         {
           "chamber": "House",
@@ -896,7 +947,8 @@
           ],
           "I": null,
           "url": "https://clerk.house.gov/Votes/2019156",
-          "note": "Died in the Senate."
+          "note": "Died in the Senate.",
+          "plain": "Reauthorize it again"
         },
         {
           "chamber": "House",
@@ -914,7 +966,8 @@
             4
           ],
           "I": null,
-          "url": "https://clerk.house.gov/Votes/2021086"
+          "url": "https://clerk.house.gov/Votes/2021086",
+          "plain": "Reauthorize it again"
         },
         {
           "chamber": "House",
@@ -933,24 +986,25 @@
           ],
           "I": null,
           "url": "https://clerk.house.gov/Votes/2022066",
-          "note": "A package vote; no standalone VAWA vote."
+          "note": "A package vote; no standalone VAWA vote.",
+          "plain": "A spending package that included it"
         }
       ],
       "objections": [
         {
-          "who": "Rep. Kevin Cramer (R-ND), 2013",
+          "who": "Rep. Kevin Cramer (R-ND)",
           "date": "2013-02-28",
           "quote": "Please consider the damage we have done if a court overturns this act and its protection all because we wanted a good slogan instead of a good law.",
           "url": "https://www.cnn.com/2013/02/28/politics/violence-against-women"
         },
         {
-          "who": "House Judiciary Republican dissent (signed by Doug Collins, Mike Johnson and others), 2019",
+          "who": "House Judiciary Republican dissent (signed by Doug Collins, Mike Johnson and others)",
           "date": "2019-03-27",
           "quote": "H.R. 1585 includes language related to firearms and restricting their possession.",
           "url": "https://www.govinfo.gov/content/pkg/CRPT-116hrpt21/pdf/CRPT-116hrpt21-pt1.pdf"
         },
         {
-          "who": "NRA spokeswoman Jennifer Baker, 2019",
+          "who": "NRA spokeswoman Jennifer Baker",
           "date": "2019-04-04",
           "quote": "The gun control lobby and anti-gun politicians are intentionally politicizing the Violence Against Women Act as a smokescreen to push their gun control agenda.",
           "url": "https://www.npr.org/2019/04/04/707685268/violence-against-women-act-gets-tangled-up-in-gun-rights-debate"
@@ -958,9 +1012,12 @@
       ],
       "complications": [
         "Senate Republicans split 23-22 in favor in 2013.",
-        "The 2022 reauthorization dropped the \"boyfriend loophole\" gun provision."
+        "The 2022 reauthorization dropped the \"boyfriend loophole\" gun provision.",
+        "Cantor, who said the goal was to \"make sure all women are safe,\" voted no on the bill that passed (House roll call 55, 2013)."
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "stat": "138 · 157 · 172",
+      "headline": "House Republicans voted against the Violence Against Women Act in 2013, 2019 and 2021: most of the party each time."
     },
     {
       "id": "fiscal-votes-for",
@@ -988,7 +1045,8 @@
             4
           ],
           "I": null,
-          "url": "https://clerk.house.gov/Votes/2017699"
+          "url": "https://clerk.house.gov/Votes/2017699",
+          "plain": "Pass the 2017 tax law"
         },
         {
           "chamber": "Senate",
@@ -1010,7 +1068,8 @@
             2,
             0
           ],
-          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1151/vote_115_1_00323.htm"
+          "url": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1151/vote_115_1_00323.htm",
+          "plain": "Pass it in the Senate"
         },
         {
           "chamber": "House",
@@ -1028,7 +1087,8 @@
             2
           ],
           "I": null,
-          "url": "https://clerk.house.gov/Votes/2023243"
+          "url": "https://clerk.house.gov/Votes/2023243",
+          "plain": "The 2023 debt-limit deal"
         }
       ],
       "estimates": [
@@ -1059,7 +1119,9 @@
       "complications": [
         "Fiscal Responsibility Act no votes came from Republicans who said it did not cut enough."
       ],
-      "confidence": "high"
+      "confidence": "high",
+      "stat": "51 of 51",
+      "headline": "Senate Republicans voted for the 2017 tax law, which the budget office says added $1.9 trillion to deficits, a year after their platform demanded a balanced budget."
     }
   ]
 }
