@@ -10,6 +10,7 @@ const esc = (s) => String(s ?? '').replace(/\|/g, '\\|');
 // ── values vs votes: a scannable page. At a glance (one finding per topic), then one card per topic.
 const h = (x) => String(x ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const q = (x) => h(x).replace(/&quot;/g, '"'); // quote text inside elements keeps its marks
+const nb = (x) => x.replace(/\b(S\.|H\.R\.) (\d)/g, '$1\u00a0$2'); // keep bill numbers on one line
 const MON = ['Jan.', 'Feb.', 'March', 'April', 'May', 'June', 'July', 'Aug.', 'Sept.', 'Oct.', 'Nov.', 'Dec.'];
 const fdate = (d) => { const [y, m, dd] = d.split('-').map(Number); return `${MON[m - 1]} ${dd}, ${y}`; };
 const verdict = (r) => (/^(Rejected|Failed)/.test(r) ? 'Failed' : 'Passed');
@@ -37,7 +38,7 @@ summary: "Border security, IVF, veterans, police, China, infrastructure, protect
 
 Republicans campaign on border security, families, veterans, the police and fiscal discipline. Below are 14 of those promises set against how Republicans in Congress actually voted, ${V.votes.reduce((n, t) => n + t.rollcalls.length, 0)} roll calls in all. Each one comes with the reason Republicans gave, because the comparison is only fair if their best argument is on the record.
 
-<p class="vv-howto"><b>How to read each card.</b> What they say, in their own words. How they voted, with the teal share of each bar showing yes votes. The reason they gave. The fine print, including procedural details and anything that complicates the story, is folded underneath. Every vote links to the official roll call.</p>
+<p class="vv-howto"><b>How to read each card.</b> What they voted on, in plain English, drawn from the official summaries by the Congressional Research Service. What they say, in their own words. How they voted, with the teal share of each bar showing yes votes. The reason they gave. The fine print, including procedural details and anything that complicates the story, is folded underneath. Every vote links to the official roll call.</p>
 
 ## At a glance
 
@@ -50,6 +51,9 @@ m += `</div>
 `;
 for (const t of V.votes) {
   m += `\n<section class="vv-card" id="${t.id}">\n<p class="vv-card-theme">${h(t.theme)}</p>\n<h3 class="vv-card-title">${h(t.headline)}</h3>\n`;
+  m += `<div class="vv-what"><span class="vv-label">What they voted on</span>\n`;
+  for (const b of t.bills) m += `<p><b>${nb(h(b.name))}.</b> ${nb(q(b.what))} <span class="vv-what-src">${b.sources.map((s) => `<a href="${h(s.url)}">${h(s.label)}</a>`).join(' · ')}</span></p>\n`;
+  m += `</div>\n`;
   if (t.value && t.value.quote) m += `<div class="vv-say"><span class="vv-label">What they say</span><p class="vv-quote">“${q(t.value.quote)}”</p><p class="vv-source">${h(t.value.who)} · <a href="${h(t.value.url)}">source</a>${t.value.note ? ` · ${h(t.value.note)}` : ''}</p></div>\n`;
   m += `<div class="vv-votes"><span class="vv-label">How they voted</span>\n`;
   for (const r of t.rollcalls) {

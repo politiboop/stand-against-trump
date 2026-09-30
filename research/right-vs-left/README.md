@@ -15,6 +15,7 @@ was built from checked sources, with gaps marked `[NEEDS SOURCE]`. This is a per
 | `data/values-votes.json`, `data/epstein-votes.json` | Structured roll calls, splits, URLs, objections, values, discharge petitions and quotes |
 | `data/build-*.cjs` | The source of truth for the JSON: edit these, not the JSON |
 | `data/render.cjs` | Writes the two published vote articles from the JSON |
+| `cache/crs/` | Official bill-status files from govinfo with the Congressional Research Service summaries (`*.summary.txt`) that the bill explainers on /values-vs-votes are written from. The `BILLS` block in `data/build-values-votes.cjs` names the file behind each explainer. |
 | `data/check-quotes.cjs` | Checks every `quote` in a data file word for word against the saved source texts |
 | `cache/` | Saved copies of every source page the research relied on, with `map.tsv` files. Local only (gitignored): these are copies of copyrighted articles. |
 

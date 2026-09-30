@@ -94,6 +94,36 @@
         "The factcheck: https://www.factcheck.org/2024/02/unraveling-misinformation-about-bipartisan-immigration-bill/"
       ],
       "confidence": "high",
+      "bills": [
+        {
+          "name": "The February package",
+          "what": "A $118 billion bill negotiated for months by Sens. James Lankford (R), Chris Murphy (D) and Kyrsten Sinema (I). It paired a border overhaul (money for more barriers, detention space, agents, asylum officers and immigration judges; a faster asylum process; a higher bar to win asylum) with $60 billion in aid for Ukraine and $14 billion for Israel.",
+          "sources": [
+            {
+              "label": "FactCheck.org",
+              "url": "https://www.factcheck.org/2024/02/unraveling-misinformation-about-bipartisan-immigration-bill/"
+            },
+            {
+              "label": "CNN",
+              "url": "https://www.cnn.com/2024/02/05/politics/border-deal-senate-vote/index.html"
+            }
+          ]
+        },
+        {
+          "name": "The Border Act (S. 4361)",
+          "what": "The border provisions again, in May, without the foreign aid. For three years, Homeland Security would have had emergency power to quickly remove or turn away certain migrants near the southwest border whenever encounters averaged 4,000 a day over a week, and would have been required to use it at higher levels. It also set up a faster asylum process run by asylum officers and raised the bar for staying in the country while a claim is pending.",
+          "sources": [
+            {
+              "label": "Congress.gov summary",
+              "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4361"
+            },
+            {
+              "label": "CNN",
+              "url": "https://www.cnn.com/2024/05/23/politics/senate-border-bill-vote/index.html"
+            }
+          ]
+        }
+      ],
       "stat": "4 of 48",
       "headline": "Senate Republicans voted to take up the border deal their own negotiator wrote."
     },
@@ -166,6 +196,18 @@
         "The Democratic bill included an insurance-coverage mandate, the \"overreach\" Republicans cited."
       ],
       "confidence": "high",
+      "bills": [
+        {
+          "name": "Right to IVF Act (S. 4445)",
+          "what": "Would have made access to fertility treatment such as IVF a right under federal law, overriding state laws that limit it. It would also have required coverage by Medicare, Medicaid, military and veterans' health care, and by private insurers that already cover pregnancy care.",
+          "sources": [
+            {
+              "label": "Congress.gov summary",
+              "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4445"
+            }
+          ]
+        }
+      ],
       "stat": "2 of 48",
       "headline": "Senate Republicans voted to take up the Right to IVF Act. On a second try, after their platform endorsed IVF, it was 2 again."
     },
@@ -221,6 +263,22 @@
         "Sen. Joni Ernst had a separate contraception-access bill."
       ],
       "confidence": "high",
+      "bills": [
+        {
+          "name": "Right to Contraception Act (S. 4381)",
+          "what": "Would have made it a right under federal law to get and use birth control, and a right for doctors, nurses and pharmacists to provide it, and barred rules that single out contraception in ways that impede access. Congress's researchers never summarized this bill; this is from its text.",
+          "sources": [
+            {
+              "label": "Bill text",
+              "url": "https://www.govinfo.gov/content/pkg/BILLS-118s4381pcs/html/BILLS-118s4381pcs.htm"
+            },
+            {
+              "label": "Congress.gov",
+              "url": "https://www.congress.gov/bill/118th-congress/senate-bill/4381"
+            }
+          ]
+        }
+      ],
       "stat": "2 of 40",
       "headline": "Senate Republicans voted to take up the Right to Contraception Act, a month before their platform endorsed access to birth control."
     },
@@ -291,6 +349,18 @@
         "Crapo conceded \"there are plenty of provisions in the bill that my colleagues and I support.\""
       ],
       "confidence": "high",
+      "bills": [
+        {
+          "name": "Tax Relief for American Families and Workers Act (H.R. 7024)",
+          "what": "Would have raised the limit on the refundable part of the child tax credit (the part paid out even to families that owe no income tax) to $1,800 per child for 2023, $1,900 for 2024 and $2,000 for 2025. It also carried business tax breaks for research spending and equipment purchases.",
+          "sources": [
+            {
+              "label": "Congress.gov summary",
+              "url": "https://www.congress.gov/bill/118th-congress/house-bill/7024"
+            }
+          ]
+        }
+      ],
       "stat": "3 of 44",
       "headline": "Senate Republicans voted to take up a child tax credit expansion that House Republicans had passed 169 to 47."
     },
@@ -371,6 +441,32 @@
         "The $35 cap for Medicare stayed in the law."
       ],
       "confidence": "high",
+      "bills": [
+        {
+          "name": "Inflation Reduction Act (H.R. 5376)",
+          "what": "Democrats' 2022 climate, health and tax bill, passed on party lines through budget reconciliation, which lets a bill through the Senate with a bare majority. It capped insulin at $35 a month for people on Medicare. Democrats wanted the same cap for private insurance, but the Senate parliamentarian ruled that part broke reconciliation rules, so keeping it took 60 votes.",
+          "sources": [
+            {
+              "label": "Congress.gov summary",
+              "url": "https://www.congress.gov/bill/117th-congress/house-bill/5376"
+            },
+            {
+              "label": "ABC News",
+              "url": "https://abcnews.com/Politics/republicans-strip-35-insulin-price-cap-democrats-bill/story?id=88069589"
+            }
+          ]
+        },
+        {
+          "name": "Kennedy's alternative",
+          "what": "Sen. John Kennedy (R-La.) proposed paying community health centers to provide insulin and epinephrine to patients at or below 350 percent of the poverty line who are uninsured, have a high unmet deductible, or pay more than 20 percent of the cost, funded from an Affordable Care Act prevention fund. He said it would make insulin available “for pennies on the dollar.”",
+          "sources": [
+            {
+              "label": "Congressional Record",
+              "url": "https://www.govinfo.gov/content/pkg/CREC-2022-08-06/pdf/CREC-2022-08-06.pdf"
+            }
+          ]
+        }
+      ],
       "stat": "7 of 50",
       "headline": "Senate Republicans voted to keep a $35 monthly cap on insulin for people with private insurance."
     },
@@ -421,6 +517,18 @@
         "A \"McConnell once backed disclosure\" angle is [NEEDS SOURCE]."
       ],
       "confidence": "high",
+      "bills": [
+        {
+          "name": "DISCLOSE Act (S. 4822)",
+          "what": "Would have required corporations, unions and political groups to report campaign spending over $10,000 to the Federal Election Commission within 24 hours, and to name their biggest donors in their political ads. It would also have made it a crime to set up a company to hide a foreign national's election money.",
+          "sources": [
+            {
+              "label": "Congress.gov summary",
+              "url": "https://www.congress.gov/bill/117th-congress/senate-bill/4822"
+            }
+          ]
+        }
+      ],
       "stat": "0 of 49",
       "headline": "Senate Republicans voted to take up a bill requiring disclosure of big political donors."
     },
@@ -517,6 +625,28 @@
         "The platform came three years after these votes."
       ],
       "confidence": "high",
+      "bills": [
+        {
+          "name": "January 6 commission (H.R. 3233)",
+          "what": "Would have created a commission to investigate the attack on the Capitol, its causes and how to prevent another, with power to issue subpoenas, hold public hearings and publish its reports.",
+          "sources": [
+            {
+              "label": "Congress.gov summary",
+              "url": "https://www.congress.gov/bill/117th-congress/house-bill/3233"
+            }
+          ]
+        },
+        {
+          "name": "Gold medals (H.R. 3325)",
+          "what": "Awarded Congressional Gold Medals to the U.S. Capitol Police and the D.C. Metropolitan Police Department for protecting the Capitol on January 6. It became law.",
+          "sources": [
+            {
+              "label": "Congress.gov summary",
+              "url": "https://www.congress.gov/bill/117th-congress/house-bill/3325"
+            }
+          ]
+        }
+      ],
       "stat": "35 of 210",
       "headline": "House Republicans voted for an independent commission on the attack on the Capitol."
     },
@@ -584,6 +714,18 @@
         "The House GOP objection was mainly the link to Build Back Better."
       ],
       "confidence": "high",
+      "bills": [
+        {
+          "name": "Infrastructure Investment and Jobs Act (H.R. 3684)",
+          "what": "Funded roads and bridges, passenger and freight rail, public transit, broadband, ports, airports, water systems, the power grid and electric-vehicle charging, and the cleanup of old pollution such as Superfund sites and abandoned mines. It became law.",
+          "sources": [
+            {
+              "label": "Congress.gov summary",
+              "url": "https://www.congress.gov/bill/117th-congress/house-bill/3684"
+            }
+          ]
+        }
+      ],
       "stat": "13 of 213",
       "headline": "House Republicans voted for the infrastructure law Trump had promised in 2016."
     },
@@ -644,6 +786,18 @@
         "House GOP leaders switched to opposition after the Schumer-Manchin reconciliation deal was announced."
       ],
       "confidence": "high",
+      "bills": [
+        {
+          "name": "CHIPS and Science Act (H.R. 4346)",
+          "what": "Funded incentives to make computer chips (semiconductors) in the United States, along with related research and workforce training, and authorized new programs at federal science agencies. It became law.",
+          "sources": [
+            {
+              "label": "Congress.gov summary",
+              "url": "https://www.congress.gov/bill/117th-congress/house-bill/4346"
+            }
+          ]
+        }
+      ],
       "stat": "24 of 211",
       "headline": "House Republicans voted for the CHIPS Act, meant to help the U.S. compete with China on chips."
     },
@@ -714,6 +868,18 @@
         "Trump urged Republicans to vote no (NBC)."
       ],
       "confidence": "high",
+      "bills": [
+        {
+          "name": "Bipartisan Safer Communities Act (S. 2938)",
+          "what": "Expanded background checks for gun buyers under 21, made straw purchasing and gun trafficking federal crimes, extended federal gun restrictions to people convicted of domestic violence against a dating partner, and funded state crisis-intervention programs, which can include red-flag laws. It also funded mental health services and school safety. It became law.",
+          "sources": [
+            {
+              "label": "Congress.gov summary",
+              "url": "https://www.congress.gov/bill/117th-congress/senate-bill/2938"
+            }
+          ]
+        }
+      ],
       "stat": "14 of 207",
       "headline": "House Republicans voted for a gun-safety law that also funded mental health care."
     },
@@ -780,6 +946,28 @@
         "Granger noted FDA's budget had risen $102 million two months earlier."
       ],
       "confidence": "high",
+      "bills": [
+        {
+          "name": "Infant Formula Supplemental Appropriations Act (H.R. 7790)",
+          "what": "$28 million in emergency money for the FDA to deal with the formula shortage and prevent future ones, including by keeping fraudulent products off the market. It passed the House but never became law.",
+          "sources": [
+            {
+              "label": "Congress.gov summary",
+              "url": "https://www.congress.gov/bill/117th-congress/house-bill/7790"
+            }
+          ]
+        },
+        {
+          "name": "Access to Baby Formula Act (H.R. 7791)",
+          "what": "Let the Agriculture Department waive rules in WIC, the federal nutrition program for women, infants and children, during emergencies and supply disruptions (for example, the monthly limit on formula), and required WIC's formula contracts to plan for recalls. It became law.",
+          "sources": [
+            {
+              "label": "Congress.gov summary",
+              "url": "https://www.congress.gov/bill/117th-congress/house-bill/7791"
+            }
+          ]
+        }
+      ],
       "stat": "12 of 204",
       "headline": "House Republicans voted for $28 million to help the FDA during the baby-formula shortage."
     },
@@ -876,6 +1064,22 @@
         "Newsweek's fact-check (medium confidence, via summary) said nothing substantive changed between the votes."
       ],
       "confidence": "high on roll calls; medium on whether texts were identical",
+      "bills": [
+        {
+          "name": "Honoring our PACT Act (H.R. 3967, then S. 3373)",
+          "what": "Expanded VA health care to veterans exposed to toxic substances in service, such as burn pits, and made disability benefits easier to get: for listed illnesses in veterans who served in listed places and years, the VA presumes the service caused them. It also widened Agent Orange coverage. The July and August votes were on the same bill under a new number. It became law.",
+          "sources": [
+            {
+              "label": "Congress.gov summary",
+              "url": "https://www.congress.gov/bill/117th-congress/house-bill/3967"
+            },
+            {
+              "label": "Congress.gov summary",
+              "url": "https://www.congress.gov/bill/117th-congress/senate-bill/3373"
+            }
+          ]
+        }
+      ],
       "stat": "25",
       "headline": "Republican senators voted for the veterans' burn-pits bill, then against it, then for it again."
     },
@@ -1016,6 +1220,48 @@
         "Cantor, who said the goal was to \"make sure all women are safe,\" voted no on the bill that passed (House roll call 55, 2013)."
       ],
       "confidence": "high",
+      "bills": [
+        {
+          "name": "The 2013 renewal (S. 47)",
+          "what": "The Violence Against Women Act funds programs that prevent and respond to domestic violence, sexual assault, dating violence and stalking, and Congress periodically renews it. The 2013 renewal ran through 2018. Among other changes, it gave tribes jurisdiction over domestic and dating violence on their lands, and counted people facing barriers because of sexual orientation or gender identity among the underserved groups its grants reach. It became law.",
+          "sources": [
+            {
+              "label": "Congress.gov summary",
+              "url": "https://www.congress.gov/bill/113th-congress/senate-bill/47"
+            }
+          ]
+        },
+        {
+          "name": "The 2019 renewal (H.R. 1585)",
+          "what": "Would have renewed the programs through 2024, added new ones, changed federal gun laws, and added housing and economic protections for victims. It passed the House and died in the Senate.",
+          "sources": [
+            {
+              "label": "Congress.gov summary",
+              "url": "https://www.congress.gov/bill/116th-congress/house-bill/1585"
+            }
+          ]
+        },
+        {
+          "name": "The 2021 renewal (H.R. 1620)",
+          "what": "A similar bill running through 2026, again with changes to federal gun laws. It passed the House.",
+          "sources": [
+            {
+              "label": "Congress.gov summary",
+              "url": "https://www.congress.gov/bill/117th-congress/house-bill/1620"
+            }
+          ]
+        },
+        {
+          "name": "The 2022 spending law (H.R. 2471)",
+          "what": "The law that funded the government for the rest of the 2022 fiscal year and sent aid to Ukraine. It renewed the Violence Against Women Act inside it, so there was no separate vote on the act.",
+          "sources": [
+            {
+              "label": "Congress.gov summary",
+              "url": "https://www.congress.gov/bill/117th-congress/house-bill/2471"
+            }
+          ]
+        }
+      ],
       "stat": "138 · 157 · 172",
       "headline": "House Republicans voted against the Violence Against Women Act in 2013, 2019 and 2021: most of the party each time."
     },
@@ -1120,6 +1366,28 @@
         "Fiscal Responsibility Act no votes came from Republicans who said it did not cut enough."
       ],
       "confidence": "high",
+      "bills": [
+        {
+          "name": "Tax Cuts and Jobs Act (H.R. 1, 2017)",
+          "what": "Cut the corporate tax rate from 35% to a flat 21%. Through 2025, it lowered individual income tax rates (the top rate went from 39.6% to 37%) and let owners of pass-through businesses deduct 20% of their business income. It also ended the penalty for not having health insurance and opened the coastal plain of Alaska's Arctic National Wildlife Refuge to oil and gas leasing.",
+          "sources": [
+            {
+              "label": "Congress.gov summary",
+              "url": "https://www.congress.gov/bill/115th-congress/house-bill/1"
+            }
+          ]
+        },
+        {
+          "name": "Fiscal Responsibility Act (H.R. 3746, 2023)",
+          "what": "The 2023 debt-limit law. It suspended the debt limit through January 1, 2025, capped discretionary spending for 2024 and 2025, took back unspent money including COVID-19 funds, ended the pause on student loan payments, and expanded work requirements for SNAP and TANF.",
+          "sources": [
+            {
+              "label": "Congress.gov summary",
+              "url": "https://www.congress.gov/bill/118th-congress/house-bill/3746"
+            }
+          ]
+        }
+      ],
       "stat": "51 of 51",
       "headline": "Senate Republicans voted for the 2017 tax law, which the budget office says added $1.9 trillion to deficits, a year after their platform demanded a balanced budget."
     }

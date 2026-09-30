@@ -223,9 +223,113 @@ const PRESENT = {
     addComplication: 'Cantor, who said the goal was to "make sure all women are safe," voted no on the bill that passed (House roll call 55, 2013).' },
   'fiscal-votes-for': { stat: '51 of 51', headline: 'Senate Republicans voted for the 2017 tax law, which the budget office says added $1.9 trillion to deficits, a year after their platform demanded a balanced budget.', plain: ['Pass the 2017 tax law', 'Pass it in the Senate', 'The 2023 debt-limit deal'] },
 };
+
+// ── What each bill was. Written only from the Congressional Research Service summaries (cache/crs/*.summary.txt,
+// extracted from govinfo BILLSTATUS files) or, where named in `basis`, from the saved article or bill text.
+// Every congress.gov link was loaded and its title checked on 2026-09-30.
+const CG = (c, type, n) => [`Congress.gov summary`, `https://www.congress.gov/bill/${c}th-congress/${type}/${n}`];
+const BILLS = {
+  'border-deal-feb-2024': [
+    { name: 'The February package', basis: 'va/factcheck_border.txt, va/cnn_feb5.txt',
+      what: 'A $118 billion bill negotiated for months by Sens. James Lankford (R), Chris Murphy (D) and Kyrsten Sinema (I). It paired a border overhaul (money for more barriers, detention space, agents, asylum officers and immigration judges; a faster asylum process; a higher bar to win asylum) with $60 billion in aid for Ukraine and $14 billion for Israel.',
+      src: [['FactCheck.org', 'https://www.factcheck.org/2024/02/unraveling-misinformation-about-bipartisan-immigration-bill/'], ['CNN', 'https://www.cnn.com/2024/02/05/politics/border-deal-senate-vote/index.html']] },
+    { name: 'The Border Act (S. 4361)', basis: 'crs/BILLSTATUS-118s4361, va/cnn_border_may.txt',
+      what: 'The border provisions again, in May, without the foreign aid. For three years, Homeland Security would have had emergency power to quickly remove or turn away certain migrants near the southwest border whenever encounters averaged 4,000 a day over a week, and would have been required to use it at higher levels. It also set up a faster asylum process run by asylum officers and raised the bar for staying in the country while a claim is pending.',
+      src: [CG(118, 'senate-bill', 4361), ['CNN', 'https://www.cnn.com/2024/05/23/politics/senate-border-bill-vote/index.html']] },
+  ],
+  'right-to-ivf-2024': [
+    { name: 'Right to IVF Act (S. 4445)', basis: 'crs/BILLSTATUS-118s4445',
+      what: 'Would have made access to fertility treatment such as IVF a right under federal law, overriding state laws that limit it. It would also have required coverage by Medicare, Medicaid, military and veterans\' health care, and by private insurers that already cover pregnancy care.',
+      src: [CG(118, 'senate-bill', 4445)] },
+  ],
+  'right-to-contraception-2024': [
+    { name: 'Right to Contraception Act (S. 4381)', basis: 'crs/BILLS-118s4381pcs.txt (no CRS summary exists)',
+      what: 'Would have made it a right under federal law to get and use birth control, and a right for doctors, nurses and pharmacists to provide it, and barred rules that single out contraception in ways that impede access. Congress\'s researchers never summarized this bill; this is from its text.',
+      src: [['Bill text', 'https://www.govinfo.gov/content/pkg/BILLS-118s4381pcs/html/BILLS-118s4381pcs.htm'], ['Congress.gov', 'https://www.congress.gov/bill/118th-congress/senate-bill/4381']] },
+  ],
+  'child-tax-credit-2024': [
+    { name: 'Tax Relief for American Families and Workers Act (H.R. 7024)', basis: 'crs/BILLSTATUS-118hr7024',
+      what: 'Would have raised the limit on the refundable part of the child tax credit (the part paid out even to families that owe no income tax) to $1,800 per child for 2023, $1,900 for 2024 and $2,000 for 2025. It also carried business tax breaks for research spending and equipment purchases.',
+      src: [CG(118, 'house-bill', 7024)] },
+  ],
+  'insulin-cap-2022': [
+    { name: 'Inflation Reduction Act (H.R. 5376)', basis: 'crs/BILLSTATUS-117hr5376, va/abc_insulin.txt',
+      what: 'Democrats\' 2022 climate, health and tax bill, passed on party lines through budget reconciliation, which lets a bill through the Senate with a bare majority. It capped insulin at $35 a month for people on Medicare. Democrats wanted the same cap for private insurance, but the Senate parliamentarian ruled that part broke reconciliation rules, so keeping it took 60 votes.',
+      src: [CG(117, 'house-bill', 5376), ['ABC News', 'https://abcnews.com/Politics/republicans-strip-35-insulin-price-cap-democrats-bill/story?id=88069589']] },
+    { name: 'Kennedy\'s alternative', basis: 'va/crec_20220806_insulin_excerpt.txt',
+      what: 'Sen. John Kennedy (R-La.) proposed paying community health centers to provide insulin and epinephrine to patients at or below 350 percent of the poverty line who are uninsured, have a high unmet deductible, or pay more than 20 percent of the cost, funded from an Affordable Care Act prevention fund. He said it would make insulin available “for pennies on the dollar.”',
+      src: [['Congressional Record', 'https://www.govinfo.gov/content/pkg/CREC-2022-08-06/pdf/CREC-2022-08-06.pdf']] },
+  ],
+  'disclose-act-2022': [
+    { name: 'DISCLOSE Act (S. 4822)', basis: 'crs/BILLSTATUS-117s4822',
+      what: 'Would have required corporations, unions and political groups to report campaign spending over $10,000 to the Federal Election Commission within 24 hours, and to name their biggest donors in their political ads. It would also have made it a crime to set up a company to hide a foreign national\'s election money.',
+      src: [CG(117, 'senate-bill', 4822)] },
+  ],
+  'jan6-commission-2021': [
+    { name: 'January 6 commission (H.R. 3233)', basis: 'crs/BILLSTATUS-117hr3233',
+      what: 'Would have created a commission to investigate the attack on the Capitol, its causes and how to prevent another, with power to issue subpoenas, hold public hearings and publish its reports.',
+      src: [CG(117, 'house-bill', 3233)] },
+    { name: 'Gold medals (H.R. 3325)', basis: 'crs/BILLSTATUS-117hr3325',
+      what: 'Awarded Congressional Gold Medals to the U.S. Capitol Police and the D.C. Metropolitan Police Department for protecting the Capitol on January 6. It became law.',
+      src: [CG(117, 'house-bill', 3325)] },
+  ],
+  'infrastructure-2021': [
+    { name: 'Infrastructure Investment and Jobs Act (H.R. 3684)', basis: 'crs/BILLSTATUS-117hr3684',
+      what: 'Funded roads and bridges, passenger and freight rail, public transit, broadband, ports, airports, water systems, the power grid and electric-vehicle charging, and the cleanup of old pollution such as Superfund sites and abandoned mines. It became law.',
+      src: [CG(117, 'house-bill', 3684)] },
+  ],
+  'chips-act-2022': [
+    { name: 'CHIPS and Science Act (H.R. 4346)', basis: 'crs/BILLSTATUS-117hr4346',
+      what: 'Funded incentives to make computer chips (semiconductors) in the United States, along with related research and workforce training, and authorized new programs at federal science agencies. It became law.',
+      src: [CG(117, 'house-bill', 4346)] },
+  ],
+  'safer-communities-2022': [
+    { name: 'Bipartisan Safer Communities Act (S. 2938)', basis: 'crs/BILLSTATUS-117s2938',
+      what: 'Expanded background checks for gun buyers under 21, made straw purchasing and gun trafficking federal crimes, extended federal gun restrictions to people convicted of domestic violence against a dating partner, and funded state crisis-intervention programs, which can include red-flag laws. It also funded mental health services and school safety. It became law.',
+      src: [CG(117, 'senate-bill', 2938)] },
+  ],
+  'infant-formula-2022': [
+    { name: 'Infant Formula Supplemental Appropriations Act (H.R. 7790)', basis: 'crs/BILLSTATUS-117hr7790',
+      what: '$28 million in emergency money for the FDA to deal with the formula shortage and prevent future ones, including by keeping fraudulent products off the market. It passed the House but never became law.',
+      src: [CG(117, 'house-bill', 7790)] },
+    { name: 'Access to Baby Formula Act (H.R. 7791)', basis: 'crs/BILLSTATUS-117hr7791',
+      what: 'Let the Agriculture Department waive rules in WIC, the federal nutrition program for women, infants and children, during emergencies and supply disruptions (for example, the monthly limit on formula), and required WIC\'s formula contracts to plan for recalls. It became law.',
+      src: [CG(117, 'house-bill', 7791)] },
+  ],
+  'pact-act-2022': [
+    { name: 'Honoring our PACT Act (H.R. 3967, then S. 3373)', basis: 'crs/BILLSTATUS-117hr3967, crs/BILLSTATUS-117s3373 (identical summaries)',
+      what: 'Expanded VA health care to veterans exposed to toxic substances in service, such as burn pits, and made disability benefits easier to get: for listed illnesses in veterans who served in listed places and years, the VA presumes the service caused them. It also widened Agent Orange coverage. The July and August votes were on the same bill under a new number. It became law.',
+      src: [CG(117, 'house-bill', 3967), CG(117, 'senate-bill', 3373)] },
+  ],
+  'vawa-reauthorizations': [
+    { name: 'The 2013 renewal (S. 47)', basis: 'crs/BILLSTATUS-113s47, crs/BILLSTATUS-116hr1585',
+      what: 'The Violence Against Women Act funds programs that prevent and respond to domestic violence, sexual assault, dating violence and stalking, and Congress periodically renews it. The 2013 renewal ran through 2018. Among other changes, it gave tribes jurisdiction over domestic and dating violence on their lands, and counted people facing barriers because of sexual orientation or gender identity among the underserved groups its grants reach. It became law.',
+      src: [CG(113, 'senate-bill', 47)] },
+    { name: 'The 2019 renewal (H.R. 1585)', basis: 'crs/BILLSTATUS-116hr1585',
+      what: 'Would have renewed the programs through 2024, added new ones, changed federal gun laws, and added housing and economic protections for victims. It passed the House and died in the Senate.',
+      src: [CG(116, 'house-bill', 1585)] },
+    { name: 'The 2021 renewal (H.R. 1620)', basis: 'crs/BILLSTATUS-117hr1620',
+      what: 'A similar bill running through 2026, again with changes to federal gun laws. It passed the House.',
+      src: [CG(117, 'house-bill', 1620)] },
+    { name: 'The 2022 spending law (H.R. 2471)', basis: 'crs/BILLSTATUS-117hr2471',
+      what: 'The law that funded the government for the rest of the 2022 fiscal year and sent aid to Ukraine. It renewed the Violence Against Women Act inside it, so there was no separate vote on the act.',
+      src: [CG(117, 'house-bill', 2471)] },
+  ],
+  'fiscal-votes-for': [
+    { name: 'Tax Cuts and Jobs Act (H.R. 1, 2017)', basis: 'crs/BILLSTATUS-115hr1 (Public Law version)',
+      what: 'Cut the corporate tax rate from 35% to a flat 21%. Through 2025, it lowered individual income tax rates (the top rate went from 39.6% to 37%) and let owners of pass-through businesses deduct 20% of their business income. It also ended the penalty for not having health insurance and opened the coastal plain of Alaska\'s Arctic National Wildlife Refuge to oil and gas leasing.',
+      src: [CG(115, 'house-bill', 1)] },
+    { name: 'Fiscal Responsibility Act (H.R. 3746, 2023)', basis: 'crs/BILLSTATUS-118hr3746 (Public Law version)',
+      what: 'The 2023 debt-limit law. It suspended the debt limit through January 1, 2025, capped discretionary spending for 2024 and 2025, took back unspent money including COVID-19 funds, ended the pause on student loan payments, and expanded work requirements for SNAP and TANF.',
+      src: [CG(118, 'house-bill', 3746)] },
+  ],
+};
+
 for (const t of votes) {
   const p = PRESENT[t.id];
   if (!p) throw new Error('no presentation for ' + t.id);
+  if (!BILLS[t.id]) throw new Error('no bill explainer for ' + t.id);
+  t.bills = BILLS[t.id].map(({ name, what, src }) => ({ name, what, sources: src.map(([label, url]) => ({ label, url })) }));
   if (p.plain.length !== t.rollcalls.length) throw new Error(`${t.id}: ${p.plain.length} labels for ${t.rollcalls.length} roll calls`);
   t.stat = p.stat; t.headline = p.headline;
   t.rollcalls.forEach((r, i) => { r.plain = p.plain[i]; });
