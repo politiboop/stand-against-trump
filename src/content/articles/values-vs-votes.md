@@ -1,8 +1,11 @@
-# What They Say, How They Vote
+---
+title: "What They Say, How They Vote"
+order: 6
+date: 2026-09-30
+summary: "Border security, IVF, veterans, police, China, infrastructure, protecting women. On 32 roll calls, most Republicans voted against the values they campaign on, and the reason was almost never the value itself."
+---
 
-Compiled September 30, 2026. Every roll call was confirmed on clerk.house.gov or senate.gov; every quote below was checked
-word for word against a saved copy of its source. Data: `data/values-votes.json` (edit `data/build-values-votes.cjs`,
-then run `node render.cjs`). Party splits are yea–nay, with not-voting in parentheses.
+Every roll call below was confirmed on clerk.house.gov or senate.gov, and every quote was checked word for word against a saved copy of its source. Party splits are yes–no, with members not voting in parentheses. Each row gives the Republicans' own stated reason, because the comparison is only fair if their best argument is on the record.
 
 ## The record
 

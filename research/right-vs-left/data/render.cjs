@@ -1,4 +1,5 @@
-// Renders ../values-vs-votes.md and ../epstein-votes.md from the JSON data. Run after editing the data builders:
+// Renders the site articles src/content/articles/values-vs-votes.md and epstein-votes.md from the JSON data.
+// Run after editing the data builders:
 //   node build-values-votes.cjs && node build-epstein-votes.cjs && node render.cjs
 const fs = require('fs'), path = require('path');
 const V = JSON.parse(fs.readFileSync(path.join(__dirname, 'values-votes.json'), 'utf8'));
@@ -7,11 +8,14 @@ const sp = (a) => (a ? `${a[0]}–${a[1]}${a[2] ? ` (${a[2]} nv)` : ''}` : '');
 const esc = (s) => String(s ?? '').replace(/\|/g, '\\|');
 
 // ── values vs votes
-let m = `# What They Say, How They Vote
+let m = `---
+title: "What They Say, How They Vote"
+order: 6
+date: 2026-09-30
+summary: "Border security, IVF, veterans, police, China, infrastructure, protecting women. On 32 roll calls, most Republicans voted against the values they campaign on, and the reason was almost never the value itself."
+---
 
-Compiled September 30, 2026. Every roll call was confirmed on clerk.house.gov or senate.gov; every quote below was checked
-word for word against a saved copy of its source. Data: \`data/values-votes.json\` (edit \`data/build-values-votes.cjs\`,
-then run \`node render.cjs\`). Party splits are yea–nay, with not-voting in parentheses.
+Every roll call below was confirmed on clerk.house.gov or senate.gov, and every quote was checked word for word against a saved copy of its source. Party splits are yes–no, with members not voting in parentheses. Each row gives the Republicans' own stated reason, because the comparison is only fair if their best argument is on the record.
 
 ## The record
 
@@ -54,23 +58,23 @@ then no on the same text, then yes again after the outcry.
 The one-line version: their stated values fold whenever they collide with party advantage, and the voting record lets
 anyone watch it happen, one roll call at a time.
 `;
-fs.writeFileSync(path.join(__dirname, '..', 'values-vs-votes.md'), m);
+const OUT = path.join(__dirname, '..', '..', '..', 'src', 'content', 'articles');
+fs.writeFileSync(path.join(OUT, 'values-vs-votes.md'), m);
 
 // ── Epstein
 const c = E.counts, cx = E.context;
-let e = `# Every Epstein Files Vote, July 2025 to September 2026
+let e = `---
+title: "Every Epstein Files Vote, July 2025 to Now"
+order: 7
+date: 2026-09-30
+summary: "Republicans did not vote against releasing the Epstein files. They voted down efforts to force release 24 times and blocked it by objection 10 more, then passed it 427-1 once Trump allowed it. Every vote, from the official record."
+---
 
-Compiled September 30, 2026 from official records: every House Clerk roll call and Rules Committee record vote for
-2025-2026 was checked, plus committee roll-call sheets on docs.house.gov, Senate roll calls, the Congressional Record
-and Senate floor logs. Data: \`data/epstein-votes.json\`.
+This list was compiled from official records: every House Clerk roll call and Rules Committee record vote for 2025 and 2026, the committee roll-call sheets on docs.house.gov, Senate roll calls, the Congressional Record and the Senate floor logs. For how this fits the larger story, see [The Epstein Files: A Timeline of Obstruction](/epstein-guilt).
 
-**The claim to avoid:** "Republicans voted against releasing the Epstein files." The release bill passed the House
-427-1 on November 18, 2025 (Rep. Clay Higgins the only no) and the Senate by unanimous consent.
+**What didn't happen.** Republicans did not vote against releasing the files. When the release bill finally reached the floor on November 18, 2025, it passed 427-1, with Rep. Clay Higgins the only no, and the Senate passed it by unanimous consent.
 
-**The accurate claim:** Republicans voted down efforts to force release or investigation ${c.recordedVotesBlockingRelease}
-times in recorded votes, and Republican senators blocked release bills by objection ${c.senateObjections} more times,
-before Trump reversed on November 16, 2025. Only four Republicans ever crossed in those recorded votes: Norman once,
-Hawley and Paul once each (Senate), and Massie four times (Judiciary).
+**What did.** Before that, Republicans voted down efforts to force release or investigation ${c.recordedVotesBlockingRelease} times in recorded votes, and Republican senators blocked release bills by objection ${c.senateObjections} more times. Only four Republicans ever crossed over in those recorded votes: Rep. Ralph Norman once, Sens. Josh Hawley and Rand Paul once each, and Rep. Thomas Massie four times. It ended when Trump reversed on November 16, 2025.
 
 ## Trump and the Speaker, in their words
 
@@ -98,11 +102,11 @@ The pattern survives that. Whenever a vote would have forced the administration 
 voted no. Whenever the target was a Democrat or a private figure, they voted yes. They switched on release only when
 the president said they could.
 
-## Gaps
+## What this list may be missing
 
 - A few days of Senate floor logs did not load; there may be additional unanimous-consent requests.
 - One July 22, 2025 Financial Services vote (Tlaib amendment) could not be confirmed from an official record.
 - Three House Judiciary "motion to table" sheets (Nov 18, 2025; Jan 13 and Feb 3, 2026) have no identified subject.
 `;
-fs.writeFileSync(path.join(__dirname, '..', 'epstein-votes.md'), e);
-console.log('rendered values-vs-votes.md and epstein-votes.md');
+fs.writeFileSync(path.join(OUT, 'epstein-votes.md'), e);
+console.log('rendered', path.join(OUT, 'values-vs-votes.md'), 'and epstein-votes.md');

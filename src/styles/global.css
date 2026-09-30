@@ -126,6 +126,18 @@ tr:hover td {
   background: var(--bg-alt);
 }
 
+/* Wide tables scroll sideways on narrow screens instead of squeezing their columns */
+@media (max-width: 760px) {
+  table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  th, td {
+    min-width: 7.5rem;
+  }
+}
+
 /* === Lists === */
 ul, ol {
   margin: 1em 0;

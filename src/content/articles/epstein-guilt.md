@@ -67,7 +67,7 @@ Trump subsequently called Greene *"Wacky," "ranting lunatic,"* and *"TRAITOR."* 
 
 On November 12, the discharge petition reached the required 218 signatures — 4 Republicans (Boebert, Greene, Mace, Massie) and 214 Democrats. That day Trump was still fighting it: *"Only a very bad, or stupid, Republican would fall into that trap."* ([American Presidency Project](https://www.presidency.ucsb.edu/documents/truth-social-posts-november-12-2025)) Four days later, on November 16, he reversed: *"House Republicans should vote to release the Epstein files, because we have nothing to hide, and it's time to move on from this Democrat Hoax."* ([American Presidency Project](https://www.presidency.ucsb.edu/documents/truth-social-posts-november-16-2025))
 
-Before that, Republicans had voted down efforts to force the files' release in 24 recorded votes across the House floor, the Rules Committee, four other committees and the Senate, and Republican senators blocked release bills by objection 10 more times. The full, sourced list is in `research/right-vs-left/epstein-votes.md`.
+Before that, Republicans had voted down efforts to force the files' release in 24 recorded votes across the House floor, the Rules Committee, four other committees and the Senate, and Republican senators blocked release bills by objection 10 more times. The full, sourced list is in [Every Epstein Files Vote](/epstein-votes).
 
 The House passed the Transparency Act **427-1** on November 18. The lone "no" vote: Rep. Clay Higgins (R-LA). The Senate passed it by unanimous consent the next day. ([House Clerk, Roll Call 289](https://clerk.house.gov/Votes/2025289)) Trump signed it into law.
 

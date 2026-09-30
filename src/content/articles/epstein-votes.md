@@ -1,16 +1,15 @@
-# Every Epstein Files Vote, July 2025 to September 2026
+---
+title: "Every Epstein Files Vote, July 2025 to Now"
+order: 7
+date: 2026-09-30
+summary: "Republicans did not vote against releasing the Epstein files. They voted down efforts to force release 24 times and blocked it by objection 10 more, then passed it 427-1 once Trump allowed it. Every vote, from the official record."
+---
 
-Compiled September 30, 2026 from official records: every House Clerk roll call and Rules Committee record vote for
-2025-2026 was checked, plus committee roll-call sheets on docs.house.gov, Senate roll calls, the Congressional Record
-and Senate floor logs. Data: `data/epstein-votes.json`.
+This list was compiled from official records: every House Clerk roll call and Rules Committee record vote for 2025 and 2026, the committee roll-call sheets on docs.house.gov, Senate roll calls, the Congressional Record and the Senate floor logs. For how this fits the larger story, see [The Epstein Files: A Timeline of Obstruction](/epstein-guilt).
 
-**The claim to avoid:** "Republicans voted against releasing the Epstein files." The release bill passed the House
-427-1 on November 18, 2025 (Rep. Clay Higgins the only no) and the Senate by unanimous consent.
+**What didn't happen.** Republicans did not vote against releasing the files. When the release bill finally reached the floor on November 18, 2025, it passed 427-1, with Rep. Clay Higgins the only no, and the Senate passed it by unanimous consent.
 
-**The accurate claim:** Republicans voted down efforts to force release or investigation 24
-times in recorded votes, and Republican senators blocked release bills by objection 10 more times,
-before Trump reversed on November 16, 2025. Only four Republicans ever crossed in those recorded votes: Norman once,
-Hawley and Paul once each (Senate), and Massie four times (Judiciary).
+**What did.** Before that, Republicans voted down efforts to force release or investigation 24 times in recorded votes, and Republican senators blocked release bills by objection 10 more times. Only four Republicans ever crossed over in those recorded votes: Rep. Ralph Norman once, Sens. Josh Hawley and Rand Paul once each, and Rep. Thomas Massie four times. It ended when Trump reversed on November 16, 2025.
 
 ## Trump and the Speaker, in their words
 
@@ -98,7 +97,7 @@ The pattern survives that. Whenever a vote would have forced the administration 
 voted no. Whenever the target was a Democrat or a private figure, they voted yes. They switched on release only when
 the president said they could.
 
-## Gaps
+## What this list may be missing
 
 - A few days of Senate floor logs did not load; there may be additional unanimous-consent requests.
 - One July 22, 2025 Financial Services vote (Tlaib amendment) could not be confirmed from an official record.

@@ -7,16 +7,17 @@ was built from checked sources, with gaps marked `[NEEDS SOURCE]`. This is a per
 
 | File | What it is |
 |---|---|
-| `not-the-same.md` | The 40-year argument against "both sides are bad", its 30 sources, the short version, claims not to make, and claims from earlier drafts that still need sources |
-| `values-vs-votes.md` | 32 roll calls on 14 topics where most Republicans voted against a stated value, each with their stated reason (rendered from data) |
-| `epstein-votes.md` | Every recorded congressional action on the Epstein files, July 2025 to September 2026: 47 rows (rendered from data) |
+| `not-the-same.md` | Working copy of the 40-year argument, with its sources, the claims not to make, and claims from earlier drafts that still need sources. The published version is `src/content/articles/not-the-same.md` (site: /not-the-same), which leaves out every unsourced line. |
+| `src/content/articles/values-vs-votes.md` | Published: 32 roll calls on 14 topics (site: /values-vs-votes). Rendered from data; do not edit by hand. |
+| `src/content/articles/epstein-votes.md` | Published: every recorded congressional action on the Epstein files, 47 rows (site: /epstein-votes). Rendered from data; do not edit by hand. |
 | `identity-vs-issues.md` | Campaign emphasis vs. the big issues (in progress) |
-| `data/values-votes.json` | Structured roll calls, splits, URLs, objections and values |
-| `data/epstein-votes.json` | Structured Epstein chronology, discharge petitions, Trump and Johnson quotes |
+| `data/values-votes.json`, `data/epstein-votes.json` | Structured roll calls, splits, URLs, objections, values, discharge petitions and quotes |
 | `data/build-*.cjs` | The source of truth for the JSON: edit these, not the JSON |
-| `data/render.cjs` | Regenerates the two vote documents from the JSON |
+| `data/render.cjs` | Writes the two published vote articles from the JSON |
 | `data/check-quotes.cjs` | Checks every `quote` in a data file word for word against the saved source texts |
 | `cache/` | Saved copies of every source page the research relied on, with `map.tsv` files. Local only (gitignored): these are copies of copyrighted articles. |
+
+New articles also need a card in `src/pages/index.astro`; source counts there and on article pages are computed from the links in each article.
 
 To rebuild after an edit:
 

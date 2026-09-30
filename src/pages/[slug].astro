@@ -16,14 +16,18 @@ const { Content } = await render(article);
 // Rough word count for read time
 const words = article.body?.split(/\s+/).length || 0;
 const readTime = `${Math.ceil(words / 200)} min`;
+// Distinct linked URLs in the article body, and the last-updated month
+const sources = new Set([...(article.body ?? '').matchAll(/\]\((https?:[^)\s]+)\)/g)].map((m) => m[1])).size;
+const updated = article.data.updatedDate ?? article.data.date;
+const date = updated.toLocaleDateString('en-US', { month: 'long', year: 'numeric', timeZone: 'UTC' });
 ---
 
 <ArticleLayout
   title={article.data.title}
   description={article.data.summary}
-  sources={7}
+  sources={sources}
   readTime={readTime}
-  date="April 2026"
+  date={date}
 >
   <Content />
 </ArticleLayout>
